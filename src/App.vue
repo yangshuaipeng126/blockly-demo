@@ -18,7 +18,7 @@ onMounted(() => {
     init();
   })
 })
-Blockly.setLocale(zhHans);
+Blockly.setLocale(zhHans)
 const rotate = {
   init: function () {
     this.appendEndRowInput('NAME')
