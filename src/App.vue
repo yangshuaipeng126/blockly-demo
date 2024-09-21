@@ -7,14 +7,15 @@ import {
 } from './utils/tools/index';
 import { FieldTurtle } from './utils/dropdown/dropdown.js';
 import { FieldBitmap } from './utils/field-bitmap';
+import { FieldGridDropdown } from '@blockly/field-grid-dropdown';
 import { nextTick, onMounted } from 'vue';
 import * as zhHans from 'blockly/msg/zh-hans';
-
+import { registerFieldColour, FieldColour } from './utils/field-colour';
 let workspace = null
 onMounted(() => {
   nextTick(() => {
+    registerFieldColour();
     init();
-
   })
 })
 Blockly.setLocale(zhHans);
@@ -118,6 +119,38 @@ const light = {
   }
 };
 
+const my_block = {
+  init: function () {
+    this.appendEndRowInput('NAME')
+      .appendField(new Blockly.FieldImage('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgaWQ9ImRzbUljb24iPjxnIGlkPSJJY29uLzQ4L2NvbG9yLXNlbnNvciIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zOCA1LjVjMi40ODEgMCA0LjUgMi4wMTkgNC41IDQuNXYyOGMwIDIuNDgxLTIuMDE5IDQuNS00LjUgNC41SDEwQTQuNTA1IDQuNTA1IDAgMDE1LjUgMzhWMTBjMC0yLjQ4MSAyLjAxOS00LjUgNC41LTQuNWgyOCIgaWQ9IkJnIiBmaWxsPSIjRkZGIi8+PHBhdGggZD0iTTM0IDI0YzAgNS41MjItNC40NzcgMTAtMTAgMTBzLTEwLTQuNDc4LTEwLTEwIDQuNDc3LTEwIDEwLTEwIDEwIDQuNDc4IDEwIDEwem00LTIwYTYgNiAwIDAxNiA2djI4YTYgNiAwIDAxLTYgNkgxMGE2IDYgMCAwMS02LTZWMTBhNiA2IDAgMDE2LTZoMjh6bTAgMS41SDEwQTQuNTA1IDQuNTA1IDAgMDA1LjUgMTB2MjhjMCAyLjQ4MSAyLjAxOSA0LjUgNC41IDQuNWgyOGMyLjQ4MSAwIDQuNS0yLjAxOSA0LjUtNC41VjEwYzAtMi40ODEtMi4wMTktNC41LTQuNS00LjV6TTI0IDljOC4yNzEgMCAxNSA2LjcyOSAxNSAxNXMtNi43MjkgMTUtMTUgMTVTOSAzMi4yNzEgOSAyNCAxNS43MjkgOSAyNCA5em0wIDJjLTcuMTggMC0xMyA1LjgyLTEzIDEzczUuODIgMTMgMTMgMTMgMTMtNS44MiAxMy0xMy01LjgyLTEzLTEzLTEzeiIgaWQ9IkNvbWJpbmVkLVNoYXBlIiBmaWxsPSIjMDBBOEM5Ii8+PC9nPjwvc3ZnPg==', 25, 25, { alt: '*', flipRtl: 'FALSE' }))
+      .appendField(new FieldGridDropdown([
+        ['A', 'a'],
+        ['B', 'b'],
+        ['A + B', 'c']
+      ]), 'c')
+      .appendField('颜色是否为')
+      .appendField(new FieldColour('#e700a7', null, {
+        colourOptions: [
+          '#e700a7',
+          '#0090f5',
+          '#77e8ff',
+          '#00a845',
+          '#ffe360',
+          '#ff000c',
+          '#ffffff',
+          '#000000',
+          'transparent'
+        ],
+        columns: 3,
+      }), 'NAME')
+      .appendField('？');
+    this.setTooltip('');
+    this.setHelpUrl('');
+    this.setColour('#34ccf1');
+  }
+};
+
+Blockly.common.defineBlocks({ my_block: my_block });
 Blockly.common.defineBlocks({ light: light });
 Blockly.common.defineBlocks({ sport01: sport01 });
 Blockly.common.defineBlocks({ rotate: rotate });
@@ -167,6 +200,17 @@ const toolbox = {
           "type": "light",
         }
       ]
+    },
+    {
+      "kind": "category",
+      "name": "传感器",
+      "colour": '#34ccf1',
+      "contents": [
+        {
+          "kind": "block",
+          "type": "my_block",
+        }
+      ]
     }
   ]
 }
@@ -191,4 +235,6 @@ const init = () => {
   </xml>
 </template>
 
-<style scoped></style>
+<style>
+
+</style>
