@@ -1,0 +1,1258 @@
+{
+    "app_update": {
+      "download_started": {
+        "message": "已开始下载 App 应用程序更新"
+      },
+      "no_internet": {
+        "message": "无网络连接。"
+      },
+      "not_enough_disk": {
+        "message": "磁盘空间不足，无法进行更新。"
+      },
+      "update_available": {
+        "dismiss": "忽略",
+        "download": "下载",
+        "message": "App 应用程序更新可用"
+      },
+      "update_downloaded": {
+        "later": "稍后安装",
+        "message": "已完成更新下载，是否立即重新启动并安装？",
+        "restart": "重启并安装",
+        "title": "App 应用程序更新"
+      },
+      "update_not_available": {
+        "message": "当前没有可用的更新。"
+      }
+    },
+    "beta-disclaimer": {
+      "atlantis": {
+        "button": "开始使用测试版应用程序",
+        "header": "欢迎使用 SPIKE 3 测试版",
+        "text1": "我们很高兴邀请你参加 SPIKE 3 测试。在此测试版本中，你将体验到改进的蓝牙连接，电机性能和新的 Python API。",
+        "text2": "请注意，测试版本正在开发中，因此某些现有功能和内容可能无法使用。",
+        "text3": "你需要使用 USB 来更新 SPIKE 3 测试版的智能集线器操作系统。"
+      }
+    },
+    "blendedLearning": {
+      "backgrounds": "背景",
+      "done": "完成",
+      "random": "随机选取"
+    },
+    "blockly": {
+      "confirmDialog": {
+        "cancel": "取消",
+        "ok": "确定"
+      }
+    },
+    "bluetoothWarning": {
+      "gecko": {
+        "text": "SPIKE App 应用软件需要访问蓝牙才能连接到 SPIKE 智能集线器。如要继续，请输入以下数字序列，以确认您已年满 18 周岁，如未年满 18 岁，请向成人寻求帮助："
+      }
+    },
+    "browserDisclaimer": {
+      "header": "不支持的浏览器",
+      "text": "使用 Google Chrome 访问 LEGO® Education SPIKE™ App 应用程序。"
+    },
+    "browserSupport": {
+      "feature": {
+        "auto-save": "自动保存项目",
+        "connect": "连接至智能集线器"
+      },
+      "featureIntro": "您的浏览器无法运行 SPIKE App 应用程序，\n因为它不支持：",
+      "recommendation": "我们建议在 Chromebook、Windows 或 macOS 上使用 Google Chrome。"
+    },
+    "buildPage": {
+      "noBuildingInstructions": "下载其中一个学习单元以获取搭建手册"
+    },
+    "buildinginstructions": {
+      "done": "完成",
+      "duration": "{{duration}} 分钟",
+      "levels": {
+        "advanced": "高级",
+        "beginner": "初级",
+        "intermediate": "中级"
+      },
+      "notFound": "未找到搭建手册",
+      "selectortitle": "选择搭建手册",
+      "steps": "{{steps}} 步",
+      "title": "搭建手册"
+    },
+    "button": {
+      "goToSettings": "转到设置"
+    },
+    "closingWebAppDisclaimer": {
+      "header": "记得保存你的作品！",
+      "text": "请在离开之前下载你的项目以保存你的作品。"
+    },
+    "colors": {
+      "azure": "蔚蓝色",
+      "black": "黑色",
+      "blue": "蓝色",
+      "cyan": "青色",
+      "green": "绿色",
+      "lightGreen": "浅绿色",
+      "none": "无颜色",
+      "orange": "橙色",
+      "pink": "粉色",
+      "purple": "紫色",
+      "random": "随机颜色",
+      "red": "红色",
+      "violet": "紫色",
+      "white": "白色",
+      "yellow": "黄色"
+    },
+    "confirmDialog": {
+      "closeProjectWithoutSave": "此项目未保存，您确定要关闭吗？"
+    },
+    "connecting": {
+      "back_to_project": "返回项目",
+      "bluetooth": "蓝牙",
+      "bluetooth_BLE": "打开智能集线器，启动蓝牙",
+      "bluetooth_BLE_identify": "识别智能集线器",
+      "bluetooth_choose": "选择您的智能集线器",
+      "bluetooth_connect": "连接",
+      "bluetooth_connected_to": "已连接至 {{hubName}}",
+      "bluetooth_searching": "正在查找附近的智能集线器......",
+      "bluetooth_step1": "1. 开启智能集线器",
+      "bluetooth_step2": "2. 激活蓝牙",
+      "bluetooth_step3": "3. 连接",
+      "cable_connect": "使用 USB 数据线连接智能集线器和设备",
+      "cable_step1": "1. 将数据线插入智能集线器",
+      "cable_step2": "2. 将数据线插入设备",
+      "change_hub_type": "更改",
+      "connect": "连接",
+      "connect_via_bluetooth": "通过蓝牙连接",
+      "connect_via_cable": "通过数据线连接",
+      "connected_label": "已连接至：",
+      "connection_flow": "连接流程",
+      "disconnect": "断开连接",
+      "education_name": "乐高教育",
+      "find_hub": "找到智能集线器",
+      "hub_name": "SPIKE 科创基础套装",
+      "rename_done": "完成",
+      "rename_enter_name": "在此处输入名称",
+      "rename_your_hub": "为智能集线器取一个独特的名称",
+      "select_hub": "选择智能集线器",
+      "usb": "USB",
+      "usb_connect": "通过数据线连接智能集线器"
+    },
+    "connection": {
+      "bluetooth": {
+        "guide1": "按住可打开智能集线器",
+        "guide2": "打开蓝牙"
+      },
+      "cantConnect": "无法连接？",
+      "iPad": {
+        "fallback": "If the problem persists use the USB cable to connect to a computer. Visit spike.legoeducation.com to update your Hub."
+      },
+      "open": "打开",
+      "showMe": "显示操作方法",
+      "usb": {
+        "essential": {
+          "guide2": "按压按钮开启智能集线器"
+        },
+        "guide1": "使用 USB 数据线连接智能集线器和设备"
+      },
+      "webGuide1": "打开连接窗口并找到你的智能集线器",
+      "webGuide2": "在连接窗口中查找你的智能集线器",
+      "webGuide3": "点击智能集线器名称，然后点击“配对”"
+    },
+    "content": {
+      "activity": "课程",
+      "aria_full_screen": "全屏显示",
+      "aria_next_step": "进行下一步",
+      "aria_prev_step": "返回上一步",
+      "build_link": "搭建",
+      "building_instructions": {
+        "title": "搭建手册"
+      },
+      "hint_link": "提示",
+      "knowledge_base": "知识库",
+      "monitors": "变量"
+    },
+    "coppaWarning": {
+      "allowButton": "教师",
+      "denyButton": "学生",
+      "gecko": {
+        "allowButton": "是",
+        "answer": "答案",
+        "button": "我已满 18 周岁",
+        "denyButton": "否",
+        "text": "仅适用于成人。您即将退出应用程序。如要继续，请输入以下序列数字并确认您已年满 18 周岁：",
+        "title": "等待......"
+      },
+      "text": "在进行下一步之前，我们需要知道您是一名学生还是一位老师",
+      "title": "等待..."
+    },
+    "dataProcessPolicy": {
+      "more_information": "更多信息",
+      "text": "我们会处理不可识别的信息，以提供良好的应用程序功能体验。"
+    },
+    "dfu": {
+      "modal": {
+        "cancel": "取消",
+        "start": "开始",
+        "text": "使智能集线器再次工作",
+        "title": "恢复"
+      }
+    },
+    "dialogs": {
+      "dataExceeded": {
+        "clearGraph": "清除线形图",
+        "close": "关闭",
+        "importText": "您记录的数据数据已超出最大允许数量。仅从智能集线器导入第一批数据。",
+        "text": "您的线形图数据已超出最大允许范围。请清除图形以添加更多数据。",
+        "title": "注意！"
+      }
+    },
+    "errorHandling": {
+      "missingSteps": {
+        "description": "此活动没有相关步骤",
+        "title": "缺少步骤"
+      },
+      "missingUnit": "找不到相应的学习单元内容",
+      "wereSorry": "非常抱歉"
+    },
+    "errors": {
+      "dismiss": "忽略",
+      "program_execution_error": "程序无法执行",
+      "program_memory_error": "内存不足，你可以在”流模式”下运行。",
+      "title": "发生错误"
+    },
+    "extensions": {
+      "add": "添加",
+      "added": "已添加",
+      "descriptions": {
+        "bargraphmonitor": "此扩展允许你显示柱状图",
+        "breakout": "打开超声波传感器并找到原始引脚，然后连接非乐高电机和传感器。",
+        "device": "通过计算机扬声器播放声音，或者使用电脑键盘或麦克风控制模型。",
+        "displaymonitor": "此扩展允许你显示图像或文本",
+        "flippermoremotor": "使电机保持其位置，或使电机在未调节的功率下运行。",
+        "flippermoremove": "在驱动底座上设置单个电机的速度或使其保持位置。",
+        "flippermoresensors": "此扩展可提供更多传感器数据，如加速度和原始颜色读数。",
+        "flippermusic": "演奏乐器和鼓。\n将在您的计算机或平板电脑中播放音乐。",
+        "horizontalbargraphmonitor": "记录柱状图数据并使其可视化",
+        "horizontaldisplaymonitor": "此扩展可以显示图像或文本",
+        "horizontalmove": "设置驱动底座上单个电机的速度或使其保持位置。",
+        "linegraphmonitor": "此扩展允许你显示和分析线形图。",
+        "weather": "获取多周天气预报。\n您的计算机需要连接互联网。来自 Yr 的天气预报由挪威气象研究所 (Norwegian Meteorological Institute) 和 NRK 提供"
+      },
+      "header": "扩展",
+      "import": "导入",
+      "internet_required": "需要网络连接",
+      "learn_more": "了解更多",
+      "reset": "删除",
+      "scratchmusic": {
+        "title": "音乐"
+      },
+      "sets": {
+        "coreset": "核心套装",
+        "expansionset": "竞赛主题包"
+      }
+    },
+    "feedback": {
+      "button": "提交反馈",
+      "description": "打开一个反馈窗口，以提供与 App 应用程序相关的问题和信息。",
+      "header": "反馈"
+    },
+    "field-types": {
+      "port-selector": {
+        "all": "所有",
+        "multiple": "多个"
+      }
+    },
+    "firmware": {
+      "modal": {
+        "unknownFirmwareDialog": {
+          "dismiss": "忽略",
+          "text": "智能集线器操作系统需要更新",
+          "title": "更新智能集线器",
+          "update": "更新"
+        }
+      },
+      "progress": {
+        "battery-low": "电池电量不足，请先将智能集线器连接电源",
+        "bt-done": {
+          "dialog": {
+            "header": "重新启动以完成更新",
+            "text": "按住中间按钮约 20 秒，直到智能集线器开启。"
+          },
+          "toast": {
+            "done": "完成",
+            "reconnect": "重新连接",
+            "text": "智能集线器操作系统更新已完成，请立即重新连接智能集线器。"
+          }
+        },
+        "done": "完成",
+        "failure": "更新智能集线器操作系统时发生错误",
+        "failure-USB": "If the problem persists use the USB cable to connect to a computer. \ngo to spike.legoeducation.com to update your Hub.",
+        "failure-reconnect": "更新智能集线器操作系统时发生错误。请重新连接智能集线器，然后重试",
+        "header": "更新智能集线器操作系统",
+        "success": "智能集线器操作系统已更新",
+        "success-reconnect": "智能集线器操作系统已更新。请按压电源按钮并保持 4 秒，然后重新连接智能集线器",
+        "success-restart": "重新启动智能集线器",
+        "success-turnOff": "按住可关闭智能集线器"
+      },
+      "toasts": {
+        "dismiss": "忽略",
+        "update": "更新",
+        "updateAvailable": "智能集线器操作系统更新可用"
+      },
+      "usbupdate": {
+        "header": "更新智能集线器",
+        "text": "智能集线器操作系统需要更新。此更新只能通过 Windows 或 Mac 设备上的 USB 连接来完成。"
+      }
+    },
+    "firmwareUpdate": {
+      "connectWithUSB": "连接线缆",
+      "downgrade": "降级",
+      "downgradeHubOS": "降级智能集线器操作系统",
+      "downgradeNotification": "你的智能集线器已更新到比此应用程序更新的版本。",
+      "mindstormsHub": "此智能集线器不能与 SPIKE App 应用程序一起使用。",
+      "noUSB": {
+        "linkText": "www.LEGOEducation.com/HubOS",
+        "text": "如果无法通过蓝牙连接智能集线器，请尝试使用 USB 数据线将其连接到带有 USB 端口的设备，然后访问："
+      },
+      "notification": "更新智能集线器操作系统",
+      "promptForUSB": "使用 USB 数据线实现更快的智能集线器操作系统更新",
+      "updateHubOS": "更新智能集线器操作系统"
+    },
+    "general": {
+      "accessibility": "可获取性",
+      "back": "返回",
+      "beta": "测试",
+      "cancel": "取消",
+      "check": "检查",
+      "colors": {
+        "blue": "蓝色",
+        "green": "绿色",
+        "red": "红色",
+        "white": "白色"
+      },
+      "comingSoon": "即将上市",
+      "done": "完成",
+      "learnMore": "了解更多",
+      "leave": "离开",
+      "next": "下一步",
+      "numbersInText": {
+        "eight": "8",
+        "five": "5",
+        "four": "4",
+        "nine": "9",
+        "one": "1",
+        "seven": "7",
+        "six": "6",
+        "three": "3",
+        "two": "2",
+        "zero": "0"
+      },
+      "off": "关闭",
+      "ok": "确定",
+      "open": "打开",
+      "openProject": "开放式项目",
+      "select": "选择",
+      "version": "版本",
+      "whoops": "哎呀！"
+    },
+    "gettingstarted": {
+      "allDone": {
+        "descriptionEssential": "您已完成所有教程，现在可以探索 SPIKE 科创基础套装了",
+        "descriptionPrime": "您已完成所有教程，现在可以探索 SPIKE Prime 科创套装了",
+        "goToHome": "转至主页",
+        "goToOnlineLessons": {
+          "subtitle": "转至在线课程计划",
+          "title": "我是老师"
+        },
+        "goToUnits": {
+          "subtitle": "进入学习单元",
+          "title": "我是学生"
+        },
+        "imageAltEssential": "4 个快乐的乐高小人仔在挥手",
+        "imageAltPrime": "两个面带微笑的乐高小人仔，其中一个在挥手",
+        "subtitleEssential": "探索 SPIKE 科创基础套装",
+        "subtitlePrime": "探索 SPIKE Prime 科创套装",
+        "title": "全部完成！"
+      },
+      "continueTitle": "让我们继续！"
+    },
+    "hardware": {
+      "header": {
+        "battery_level": "{{charge}} %",
+        "brick_os": "智能集线器操作系统：{{version}}",
+        "disconnect": "断开连接",
+        "disconnect_guide": {
+          "headline": "断开智能集线器连接",
+          "text": "请转至设备的“设置” > 转至蓝牙 > 点击智能集线器旁边的信息图标 > 点击“断开连接”"
+        },
+        "menu": {
+          "delete_all": "删除所有程序",
+          "reset_settings": "重置设置"
+        },
+        "rename": "重命名",
+        "update": "更新"
+      },
+      "hub": {
+        "battery": "电量",
+        "disconnectbutton": "断开连接",
+        "hubnameheader": "智能集线器名称",
+        "hubversion": "智能集线器操作系统：{{version}}",
+        "manageprogramsbutton": "管理智能集线器上的程序",
+        "memory": "内存",
+        "notconnected": "未连接智能集线器"
+      },
+      "manageData": {
+        "actions": {
+          "deleteAll": "删除全部",
+          "deselectAll": "取消全选",
+          "export": "导出",
+          "selectAll": "选择全部"
+        },
+        "created": "创建日期",
+        "delete": "删除",
+        "deleteModal": {
+          "cancel": "不，请不要删除",
+          "delete": "是，请删除",
+          "text": "删除 {{dataName}} 将会将其从智能集线器中移除。"
+        },
+        "modified": "修改日期",
+        "name": "名称",
+        "noData": "无数据",
+        "size": "大小",
+        "sizeWithUnitBytes": "{{size}} B",
+        "sizeWithUnitKiloBytes": "{{size}} KB",
+        "type": "类型"
+      },
+      "managePrograms": {
+        "created": "创建日期",
+        "delete": "删除",
+        "deleteModal": {
+          "cancel": "不，请不要删除",
+          "delete": "是，请删除",
+          "text": "删除 \"{{programName}}\" 将会将其从智能集线器中移除。"
+        },
+        "led": "LED",
+        "modified": "修改日期",
+        "name": "名称",
+        "size": "大小",
+        "sizeWithUnitBytes": "{{size}} B",
+        "sizeWithUnitKiloBytes": "{{size}} kB"
+      },
+      "modal": {
+        "title": "智能集线器重命名"
+      },
+      "position": {
+        "acceleration": "加速度",
+        "angle": "倾角",
+        "gyro": "陀螺仪速率",
+        "orientation": "方向",
+        "x": "X",
+        "y": "Y",
+        "z": "Z"
+      },
+      "sensors": {
+        "names": {
+          "boostVision": {
+            "0": "颜色"
+          },
+          "color": {
+            "0": "颜色",
+            "1": "反射",
+            "2": "红",
+            "3": "绿色",
+            "4": "蓝色"
+          },
+          "distance": {
+            "0": "距离（厘米）",
+            "1": "距离（英寸）",
+            "2": "距离（百分比）"
+          },
+          "force": {
+            "0": "力",
+            "1": "被触碰",
+            "4": "压力"
+          },
+          "motor": {
+            "0": "功率",
+            "1": "速度",
+            "2": "相对位置",
+            "3": "位置"
+          },
+          "unknown": {
+            "-1": "未知"
+          }
+        }
+      },
+      "tabs": {
+        "data": "数据",
+        "hardwarePage": "主控面板",
+        "manageFiles": "程序"
+      },
+      "unit": {
+        "48": {
+          "0": "%",
+          "1": "%",
+          "2": "°",
+          "3": "°"
+        },
+        "49": {
+          "0": "%",
+          "1": "%",
+          "2": "°",
+          "3": "°"
+        },
+        "61": {
+          "1": "%",
+          "2": "红色",
+          "3": "绿色",
+          "4": "蓝色"
+        },
+        "62": {
+          "0": "厘米",
+          "1": "英寸",
+          "2": "%"
+        },
+        "63": {
+          "0": "牛顿",
+          "1": " "
+        },
+        "65": {
+          "0": "%",
+          "1": "%",
+          "2": "°",
+          "3": "°"
+        },
+        "75": {
+          "0": "%",
+          "1": "%",
+          "2": "°",
+          "3": "°"
+        },
+        "76": {
+          "0": "%",
+          "1": "%",
+          "2": "°",
+          "3": "°"
+        }
+      }
+    },
+    "help": {
+      "navigationLabel": "帮助导航",
+      "onlinesupport": "在线技术支持",
+      "rightClickMenu": "帮助"
+    },
+    "host-popup": {
+      "message": "请启动 LEGO® Education SPIKE App 应用程序并刷新浏览器",
+      "title": "没有正在运行的 LEGO® Education SPIKE App 应用程序"
+    },
+    "hubOS-update": {
+      "atlantis": {
+        "disclaimer": {
+          "headline": "请在更新前阅读！",
+          "text1": "你即将安装智能集线器操作系统的测试版。此版本将改善蓝牙连接和电机性能。然而，并非所有以前的功能都包括在内。",
+          "text2": "SPIKE App 3 与 SPIKE App 2 不兼容。",
+          "text3": "如果在更新后想再次使用 SPIKE App 2 ，则需要降级智能集线器操作系统。"
+        },
+        "headline": "智能集线器操作系统有更新可用。",
+        "headline2": "可能需要更新智能集线器操作系统",
+        "skip": "已更新",
+        "text": "电源按钮是什么颜色？",
+        "update": "立即更新",
+        "version": "智能集线器操作系统版本",
+        "whiteBlue": "白色或蓝色"
+      },
+      "essentialToAtlantis": {
+        "text": "灯是什么颜色的？"
+      },
+      "pt-atlantis": {
+        "disclaimer": {
+          "ctaDontUpdate": "不更新",
+          "ctaUpdate": "升级智能集线器操作系统",
+          "text1": "您的智能集线器操作系统需要更新，以便与 SPIKE App 3 配合使用。是否要立即更新您的智能集线器操作系统？",
+          "text2": "请注意，更新将删除智能集线器上存储的所有程序。更新的智能集线器不适用于以前的 SPIKE App 应用程序版本。",
+          "text3": "如果要使用旧版 SPIKE App 应用程序连接更新的智能集线器，请降级该智能集线器。智能集线器降级工具仅在 macOS 和 ChromeOS 上可用。"
+        }
+      }
+    },
+    "hubselector": {
+      "essential": "科创基础套装",
+      "prime": "Prime 科创套装",
+      "spike": "SPIKE",
+      "title": "选择智能集线器"
+    },
+    "intro-page": {
+      "footer": {
+        "prepare": "转至教师准备材料",
+        "slide-1": "请确认已准备就绪，可以充分体验 Prime 科创套装了。",
+        "slide-2": "搭建 Prime 科创套装作品，并将其连接至智能设备。",
+        "slide-3": "通过堆叠编程模块来编制程序。",
+        "slide-4": "运行程序，查看您的 Prime 科创套装作品是否按预期工作。",
+        "start": "Prime 科创套装入门"
+      },
+      "gecko": {
+        "footer": {
+          "slide-1": "请确认您已为充分体验 SPIKE™ 科创基础套装做好了一切准备。",
+          "slide-2": "搭建 SPIKE™ 科创基础套装作品，并将其连接至智能设备。",
+          "slide-4": "运行程序，查看您的 SPIKE™ 科创基础套装是否按预期工作。",
+          "start": "SPIKE™ 科创基础套装入门。"
+        },
+        "header": {
+          "slide-1": "欢迎体验 \n SPIKE™ 科创基础套装"
+        }
+      },
+      "header": {
+        "slide-1": "欢迎体验 \n Prime 科创套装",
+        "slide-2": "搭建",
+        "slide-3": "编程",
+        "slide-4": "学习",
+        "slide-5": "让我们开始吧！"
+      },
+      "prepare": "准备",
+      "skip-intro": "跳过",
+      "start": "开始"
+    },
+    "killSwitchWarning": {
+      "title": "等待......"
+    },
+    "level": "初级",
+    "lobby": {
+      "disclaimer": "LEGO, the LEGO logo, the Minifigure and the SPIKE logo are trademarks and/or copyrights of the LEGO Group. ©2020 - 2023 The LEGO Group. All rights reserved.",
+      "essential": {
+        "banner": {
+          "description": "通过 5 个简单的入门活动学习使用 SPIKE 科创基础套装。",
+          "link": {
+            "title": "开始"
+          },
+          "title": "开始使用 SPIKE™ 科创基础套装"
+        },
+        "cards": {
+          "instructions": {
+            "description": "为您提供全面的 SPIKE 科创基础套装模型搭建手册。",
+            "title": "搭建手册"
+          },
+          "unitplans": {
+            "description": "SPIKE 科创基础套装学习单元面向小学生，由趣味十足、引人入胜的 STEAM 课程组成。",
+            "title": "学习单元"
+          }
+        }
+      },
+      "prime": {
+        "banner": {
+          "description": "只需 6 步即可轻松学会使用 SPIKE Prime 科创套装！",
+          "link": {
+            "title": "开始"
+          },
+          "title": "开始使用 SPIKE™ Prime 科创套装"
+        },
+        "cards": {
+          "instructions": {
+            "description": "提供全面的 SPIKE Prime 科创套装模型搭建手册。",
+            "title": "搭建手册"
+          },
+          "unitplans": {
+            "description": "SPIKE Prime 科创套装的所有课程按主题划分为不同的学习单元，可有效激发中学生学习 STEAM 的积极性。",
+            "title": "学习单元"
+          }
+        }
+      },
+      "projects": {
+        "created": "创建日期",
+        "delete": "删除",
+        "modified": "修改日期",
+        "name": "名称",
+        "new_project": "新建项目",
+        "show_all": "显示全部",
+        "size": "大小",
+        "title": "最近项目"
+      }
+    },
+    "monitors": {
+      "copy": "复制",
+      "export": "导出",
+      "import": "导入",
+      "labels": {
+        "list": "列表：{{listName}}",
+        "missing": "标签丢失：{{opcode}}",
+        "sensing_timer": "计时器",
+        "sound_volume": "音量",
+        "var": "变量：{{varName}}"
+      },
+      "no_monitors": "未添加监视器",
+      "remove_all": "删除所有项目"
+    },
+    "navigation": {
+      "content_management": "内容管理",
+      "hardware": "硬件",
+      "help": "帮助",
+      "home": "首页",
+      "models": "搭建",
+      "my_projects": "我的项目",
+      "scratch": "Scratch 编程",
+      "settings": "设置",
+      "start": "开始",
+      "units": "学习单元"
+    },
+    "new-connection": {
+      "long": "按压按钮，你的智能集线器会在可用智能集线器列表中突出显示",
+      "press": "按压智能集线器上的按钮",
+      "tiptext": "识别智能集线器提示"
+    },
+    "openProject": {
+      "spike2": {
+        "python": "此项目是用 SPIKE App 2 完成的。但是却无法在 SPIKE App 3 中打开。",
+        "wordblocks": "此项目是用 SPIKE App 2 完成的。该项目在 SPIKE App 3 中的运行方式可能略有不同。"
+      }
+    },
+    "productSelection": {
+      "gotIt": "已获取该套装"
+    },
+    "productselector": {
+      "essential": "科创基础套装",
+      "prime": "Prime 科创套装",
+      "spike": "SPIKE",
+      "title": "选择\n SPIKE™ 学习方案"
+    },
+    "projects": {
+      "cancel": "取消",
+      "delete": "删除",
+      "deleteAll": "删除全部",
+      "deselectAll": "取消全选·",
+      "duplicate": "复制",
+      "menu": {
+        "export": "导出",
+        "move": "移动至......",
+        "rename": "项目重命名......",
+        "saveAs": "另存为......"
+      },
+      "modal": {
+        "deleteAllDialog": {
+          "text": "确定要删除所有项目吗？",
+          "title": "注意！"
+        },
+        "deleteDialog": {
+          "textPluralis": "确定要删除所有选定的项目吗？",
+          "textSingular": "确定要删除已选定的项目吗？"
+        },
+        "invalidProjectFile": {
+          "button": "忽略",
+          "text": "无法打开项目",
+          "title": "注意！"
+        },
+        "newProjectDialog": {
+          "button": "创建",
+          "title": "新建项目"
+        },
+        "renameDialog": {
+          "title": "项目名称"
+        }
+      },
+      "rename": "重命名",
+      "save": "保存",
+      "search": "搜索",
+      "selectAll": "全部选择",
+      "share": "分享",
+      "title": "我的项目",
+      "types": {
+        "icon": "图标模块",
+        "python": "Python",
+        "vertical": "词语模块"
+      }
+    },
+    "promt": {
+      "body": {
+        "allowBluetooth": "在你设备的“设置”中允许 SPIKE App 应用程序使用蓝牙功能。需要启用蓝牙才能连接到你的智能集线器。",
+        "allowMicrophone": "在你设备的“设置”中允许 SPIKE App 应用程序使用麦克风。需要启用麦克风以使用响度模块和录制声音。",
+        "openingProjectMissingUnit": "你正在尝试打开的项目是课程的一部分。\n请在打开项目之前下载包含该课程的学习单元。"
+      },
+      "header": {
+        "allowBluetooth": "SPIKE™ App 应用程序希望使用蓝牙功能",
+        "allowMicrophone": "SPIKE™ App 应用程序希望使用麦克风",
+        "openingProjectMissingUnit": "此项目是课程的一部分"
+      }
+    },
+    "python": {
+      "clearconsole": "清除控制台",
+      "codesnippet": "代码段",
+      "console": "控制台",
+      "copiedclipboard": "复制到剪贴板",
+      "copy": "复制",
+      "copypaste": "复制/粘贴",
+      "find": "查找",
+      "findreplace": "查找和替换",
+      "knowledgebase": "知识库",
+      "paste": "粘贴",
+      "pythoneditor": "Python 编辑器",
+      "replace": "替换",
+      "search": "搜索"
+    },
+    "scienceUnit": {
+      "add-image": "添加图像",
+      "average": "平均值",
+      "avg": "平均值",
+      "color1": "紫色",
+      "color2": "蓝色",
+      "color3": "蔚蓝色",
+      "color4": "绿色",
+      "color5": "黄色",
+      "color6": "红色",
+      "combinedview": "组合视图",
+      "copy": "复制",
+      "created": "创建日期",
+      "data": "数据",
+      "delete": "删除",
+      "deselectAll": "取消全选",
+      "export": "导出",
+      "hub": "智能集线器",
+      "import": "导入",
+      "importfromhub": "从智能集线器导入",
+      "importsource": "选择导入源",
+      "line": "线",
+      "lineandscatter": "线和散点",
+      "linegraph": "线形图",
+      "max": "最大值",
+      "maximum": "最大值",
+      "min": "最小值",
+      "minimum": "最小值",
+      "modified": "修改日期",
+      "mydevice": "我的设备",
+      "name": "名称",
+      "now": "现在",
+      "openFullscreenGraph": "打开全屏显示",
+      "resetzoom": "重置缩放",
+      "scatter": "散点",
+      "selectall": "选择全部",
+      "size": "大小",
+      "splitview": "拆分视图",
+      "table": "表格",
+      "time": "时间",
+      "toggleMultipleYAxes": "切换为多个 y-轴",
+      "type": "类型",
+      "zoomin": "放大",
+      "zoomout": "缩小"
+    },
+    "scratch": {
+      "connect": "连接",
+      "connectHighlight": "按下按钮连接智能集线器。",
+      "empty": {
+        "lobbySubHeader": "浏览学习材料",
+        "newHeader": "新建项目",
+        "newSubHeader": "新建编程界面"
+      },
+      "executionModePicker": {
+        "download": "下载",
+        "streaming": "串流"
+      },
+      "footer": {
+        "openExecutionMode": "打开运行模式",
+        "openSlotPicker": "打开下载选择器",
+        "play": "运行程序",
+        "redo": "恢复程序",
+        "stop": "停止程序",
+        "undo": "撤消程序",
+        "zoomIn": "放大程序",
+        "zoomOut": "缩小程序",
+        "zoomToFit": "缩放以适合程序"
+      },
+      "header": {
+        "modal": {
+          "cancel": "取消",
+          "save": "保存",
+          "title": "项目名称"
+        }
+      },
+      "myblocks": {
+        "modal": {
+          "cancel": "取消",
+          "noScreenUpdate": "在不刷新屏幕的情况下运行",
+          "options": {
+            "addInput": "添加输入",
+            "addLabel": "添加标签",
+            "boolean": "布尔",
+            "limitReached": "已达到允许输入的最大数量。",
+            "textNumber": "数字或文本"
+          },
+          "save": "保存",
+          "title": "创建模块"
+        }
+      },
+      "notifications": {
+        "downloadMode": "智能集线器处于下载模式",
+        "streamingMode": "智能集线器处于流模式"
+      },
+      "program": {
+        "default": "项目"
+      },
+      "slotPicker": {
+        "title": "下载至"
+      },
+      "toolbox": {
+        "all": "所有产品",
+        "changeFilter": "更改工具箱筛选器",
+        "control": "控制",
+        "device": "设备",
+        "dropdown_title": "显示模块",
+        "events": "事件",
+        "lesson": "课程",
+        "light": "灯",
+        "motors": "电机",
+        "movement": "运动",
+        "myblocks": "我的模块",
+        "operators": "运算符",
+        "sensing": "传感器",
+        "showAll": "显示全部",
+        "showLess": "收起",
+        "sound": "声音",
+        "spikeessential": "SPIKE™ 科创基础套装",
+        "spikeprime": "Prime 科创套装",
+        "variables": "变量"
+      }
+    },
+    "screenSizeDisclaimer": {
+      "header": "不支持的屏幕大小",
+      "text": "请确保屏幕像素至少达到 1024x768，以获得最佳体验。"
+    },
+    "settings": {
+      "allowAnalytics": "允许分析",
+      "contactUs": "联系我们",
+      "debug": {
+        "header": "启用调试模式"
+      },
+      "general": {
+        "deleteAll": "删除所有学习单元",
+        "downloadAll": "下载所有学习单元",
+        "title": "一般设置",
+        "toggleTextOutline": "切换模块上文本的额外轮廓"
+      },
+      "landing": {
+        "general": "一般设置",
+        "help": "帮助",
+        "language": "语言",
+        "terms": "条款和条件",
+        "title": "设置"
+      },
+      "language": {
+        "title": "语言"
+      },
+      "licenses": {
+        "title": "许可"
+      },
+      "menu": {
+        "cookies": "Cookies",
+        "general": "一般设置",
+        "help": "帮助",
+        "language": "语言",
+        "legal": "法律信息",
+        "licenses": "许可",
+        "privacy": "隐私",
+        "terms": "条款和条件"
+      },
+      "pythonEnabled": {
+        "description": "如果禁用，则只能创建词语模块项目。",
+        "header": "启用 Python 项目"
+      },
+      "releasechannel": {
+        "header": "发布版本",
+        "options": {
+          "alpha": {
+            "label": "alpha"
+          },
+          "beta": {
+            "label": "beta"
+          },
+          "latest": {
+            "label": "最新版本"
+          }
+        }
+      },
+      "showAppUpdate": {
+        "description": "每当有新的更新可供下载时，都会显示提示。",
+        "header": "App 应用程序更新通知"
+      },
+      "showIntro": {
+        "description": "介绍页展示了 SPIKE 的主要概念",
+        "header": "显示介绍信息"
+      },
+      "showUnitPlanUpdates": {
+        "description": "每当有新的更新可供下载时，都会显示提示。",
+        "header": "学习单元更新通知"
+      },
+      "useLiveContentInAlpha": {
+        "description": "切换是否应通过实时或临时/测试提取内容",
+        "header": "使用实时内容"
+      },
+      "viewOnline": "更多在线信息"
+    },
+    "sound-editor": {
+      "add-sound": "添加声音",
+      "addToProject": "返回项目",
+      "buttons": {
+        "echo": "回音",
+        "faster": "快速",
+        "louder": "响亮",
+        "redo": "恢复",
+        "reverse": "倒放",
+        "robot": "机器人",
+        "slower": "慢速",
+        "softer": "柔和",
+        "trim": "剪辑",
+        "undo": "撤销"
+      },
+      "cancel": "取消",
+      "confirm-delete-modal": {
+        "delete": "删除",
+        "dismiss": "忽略",
+        "text": "确定要删除吗？",
+        "title": "删除声音"
+      },
+      "confirm-modal": {
+        "dismiss": "忽略",
+        "save": "保存",
+        "text": "是否保存所做的更改？"
+      },
+      "default-name": "录音 1",
+      "delete-sound": "删除声音",
+      "edit": "编辑",
+      "error-modal": {
+        "button": "忽略",
+        "text": "无法开始录制，请检查您的音频输入设备。",
+        "title": "录制错误"
+      },
+      "filters": "筛选",
+      "newrecording": "新建录音",
+      "play": "运行",
+      "record_error": "无法启动录音机。",
+      "rename-module": {
+        "cancel": "取消",
+        "save": "保存",
+        "title": "声音重命名"
+      },
+      "rerecord": "重新录制",
+      "save": "保存",
+      "sound-tags": {
+        "all": "所有声音",
+        "ambient": "环境",
+        "animals": "动物",
+        "effects": "效果",
+        "games": "游戏",
+        "loops": "循环",
+        "music": "音乐",
+        "notes": "音符",
+        "people": "人物",
+        "space": "空间",
+        "sports": "运动",
+        "wacky": "古怪"
+      },
+      "stop": "停止",
+      "storage": "智能集线器存储：{{storage}} %",
+      "tabs": {
+        "editor": "编辑器",
+        "library": "声音库",
+        "record": "录制"
+      },
+      "title": "声音"
+    },
+    "splashScreen": {
+      "LoadingDisclaimer": "这可能需要几分钟时间"
+    },
+    "supermonitor": {
+      "bargraph": {
+        "reset": "重置"
+      },
+      "linegraph": {
+        "reset": "重置"
+      },
+      "linegraphimport": "导入"
+    },
+    "teacher-preparation": {
+      "end-slide": {
+        "Start": {
+          "subtitle": "Prime 科创套装入门",
+          "title": "开始"
+        },
+        "help-files": {
+          "subtitle": "需要帮助？\n 转至帮助文件",
+          "title": "帮助文件"
+        },
+        "lesson-plans": {
+          "subtitle": "使用课程计划开始课程设计",
+          "title": "课程计划"
+        },
+        "support": {
+          "subtitle": "需要支持？\n 转至支持",
+          "title": "支持"
+        }
+      },
+      "footer": {
+        "slide-1": "在每个分类托盘的侧边都贴上贴纸",
+        "slide-2": "打开积木袋，并使用分类托盘的分区对积木进行分类",
+        "slide-3": "将电池装入智能集线器。",
+        "slide-4": "按压智能集线器上的大按钮，打开电源",
+        "slide-5": "使用名称或编号为每个智能集线器、电机、传感器和盒子做标记。",
+        "slide-6": "所有智能集线器都预装了一个默认程序——显示一颗爱心",
+        "slide-7": "智能集线器操作系统需要更新。此更新只能通过 Windows 或 Mac 设备上的 USB 连接来完成。"
+      },
+      "header": {
+        "slide-1": "使用贴纸",
+        "slide-2": "对积木进行分类",
+        "slide-3": "插入电池",
+        "slide-4": "打开智能集线器",
+        "slide-5": "识别硬件",
+        "slide-6": "运行默认程序",
+        "slide-7": "更新智能集线器"
+      },
+      "skip-intro": "跳过"
+    },
+    "toasts": {
+      "content": {
+        "download": "下载",
+        "unit_update_available": "{{unitPlan}} 更新可用"
+      },
+      "download": {
+        "complete_message": "下载完成",
+        "failed_message": "下载失败"
+      },
+      "hub_connected": {
+        "message": "智能集线器已成功连接"
+      },
+      "hub_disconnected": {
+        "connect": "连接",
+        "dismiss": "忽略",
+        "message": "智能集线器已断开连接"
+      },
+      "project_moved": "已成功移动项目文件",
+      "upload_failed": {
+        "dismiss": "忽略",
+        "message": "出现问题",
+        "nospace_message": "智能集线器没有剩余空间"
+      }
+    },
+    "tooltip": {
+      "saveProject": "保存项目"
+    },
+    "tooltips": {
+      "back_to_units": "返回学习单元",
+      "battery_level": "当前电量",
+      "close": "关闭",
+      "close_lobby": "关闭大厅",
+      "close_project": "关闭项目",
+      "disconnect_hub": "断开智能集线器连接",
+      "download_to_hub": "下载至智能集线器",
+      "edit_project": "编辑项目",
+      "gs_done": "完成",
+      "hub_version": "智能集线器当前版本",
+      "name": "名称",
+      "new_project": "创建新项目",
+      "next_step": "下一步",
+      "next_storage_position": "下一个存储位置",
+      "open_home": "打开主页",
+      "open_hub_connection": "打开智能集线器连接",
+      "open_project_settings": "打开项目设置",
+      "pan": "重置缩放",
+      "paste": "粘贴",
+      "play": "运行",
+      "previous_step": "上一步",
+      "previous_storage_position": "上一个存储位置",
+      "redo": "恢复",
+      "see_as_grid": "图标",
+      "see_as_list": "列表",
+      "select_storage_position": "选择存储位置",
+      "settings": "设置",
+      "show_block_extensions": "显示模块扩展",
+      "show_hide_card": "显示/隐藏卡片",
+      "show_hide_monitor": "显示/隐藏监视器",
+      "show_more": "显示更多",
+      "start_lesson": "开始课程学习",
+      "stop": "停止",
+      "undo": "撤销",
+      "zoom_in": "放大",
+      "zoom_out": "缩小",
+      "zoom_to_fit": "缩放以适合"
+    },
+    "troubleshooting": {
+      "anotherUSB": "如果可能，请尝试使用其他 USB 数据线或其他 USB 端口",
+      "connectUSB": "使用 USB 数据线连接",
+      "spike2": {
+        "downgrade": "降级智能集线器",
+        "getSpike3": "获取 SPIKE App 3",
+        "greenHub": "你的电源按钮是绿色的吗？",
+        "updatedToSpike3": "然后，您的智能集线器操作系统将更新，以便使用 SPIKE App 3"
+      },
+      "spikeUSB": "确保使用的是 SPIKE 套件中的白色 USB 数据线",
+      "stillTrouble": "还是不管用？",
+      "turnOn": "确保开启智能集线器",
+      "updateWithUSB": "需要使用 USB 数据线更新智能集线器操作系统"
+    },
+    "unitplans": {
+      "activities": "课程",
+      "cancel": "取消下载",
+      "download": "下载",
+      "forEducators": "教育工作者",
+      "grade": "{{grade}} 年级",
+      "lessonplanlink": "课程计划",
+      "level": {
+        "Advanced": "高级",
+        "Beginner": "初级",
+        "Intermediate": "中级"
+      },
+      "minutes": "{{duration}} 分钟",
+      "more": "更多",
+      "redownload": "重新下载",
+      "required": "必选",
+      "restore": "恢复内容",
+      "start": "开始",
+      "subtitleLabel": "副标题",
+      "teacherSupport": "查看课程计划和教师支持",
+      "title": "学习单元",
+      "updateAvailable": "更新可用",
+      "viewLessonplan": "查看课程计划",
+      "viewOnline": "更多在线信息"
+    },
+    "versionGuardWarning": {
+      "title": "等待......",
+      "updateButton": "更新"
+    },
+  "webApp": {
+      "spike3-2": {
+        "disclaimer": {
+          "ctaLegacy": "打开旧版 SPIKE App 应用程序",
+          "ctaSpike3": "使用 SPIKE App 3",
+          "header": "欢迎使用 SPIKE App 3！",
+          "text1": "在 SPIKE App 3 中，蓝牙连接有了巨大的改进，支持更大的用户程序，更好的电机性能等等。",
+          "text2": "请注意，目前还不能使用 Python 编码或打开现有程序。要使用 Python 或打开在以前版本的 SPIKE App 应用程序中创建的已保存程序，请使用旧版 SPIKE App 应用程序。",
+          "text3": "准备好体验 SPIKE App 3 还是想打开旧版 SPIKE App 应用程序？"
+        }
+      },
+      "spike3": {
+        "toLegacy": {
+          "info": {
+            "text": "如需打开 SPIKE App 2 中的项目或使用 Python，请转到 spikelegacy.legoeducation.com。"
+          }
+        }
+      }
+    },
+    "whatsNew": {
+      "dimissForever": "不再显示此内容",
+      "getSpike3": "获取 SPIKE App 3",
+      "header": {
+        "bluetooth": "改进后的蓝牙连接",
+        "firmwareAndMore": "新固件",
+        "python": "新 Python API",
+        "pythonComing": "Python 即将推出",
+        "spike3-promotion": "一个新版本 SPIKE App 应用程序"
+      },
+      "staySpike2": "使用旧版 SPIKE App 应用程序",
+      "text": {
+        "bluetooth": "通过蓝牙更快地连接至 SPIKE Prime 科创套装智能集线器",
+        "firmwareAndMore": "开始更新智能集线器操作系统建议教师在上课前使用 USB 数据线更新所有智能集线器。",
+        "python": "更容易从词语模块转换到 Python",
+        "pythonComing": "新的 Pytho API 即将推出。在此之前，请使用适用于 Python 的 SPIKE Legacy 应用程序。",
+        "spike3-promotion": "更新到 SPIKE App 3，使 SPIKE Prime 科创套装享受更稳定的蓝牙连接和许多其他改进。\n\n要打开现有程序或使用 Python，请继续使用旧版 SPIKE App 应用程序。"
+      },
+      "title": "SPIKE App 3 新增内容",
+      "titleSpike3-promotion": "新 SPIKE App 应用程序",
+      "updateHub": "更新智能集线器操作系统"
+    },
+    "windowSizeDisclaimer": {
+      "header": "不支持的窗口大小",
+      "text": "请确保窗口像素至少达到 1024x768，以获得最佳体验。"
+    }
+  }

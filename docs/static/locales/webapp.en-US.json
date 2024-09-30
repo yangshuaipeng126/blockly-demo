@@ -1,0 +1,1359 @@
+{
+    "app_update": {
+      "download_started": {
+        "message": "Started downloading app update"
+      },
+      "no_internet": {
+        "message": "No internet connection."
+      },
+      "not_enough_disk": {
+        "message": "There is not enough disk space to update."
+      },
+      "update_available": {
+        "dismiss": "Dismiss",
+        "download": "Download",
+        "message": "An app update is available"
+      },
+      "update_downloaded": {
+        "later": "Install Later",
+        "message": "Finished downloading update. Restart and install now?",
+        "restart": "Restart and Install",
+        "title": "App Update"
+      },
+      "update_not_available": {
+        "message": "There are no updates currently available."
+      }
+    },
+    "beta-disclaimer": {
+      "atlantis": {
+        "button": "START BETA APP",
+        "header": "Welcome to the SPIKE App 3 Beta",
+        "text1": "We are excited to invite you to join SPIKE App 3 Beta. In this Beta version, you will experience improved Bluetooth connection, motor performance, and a new Python API.",
+        "text2": "Please note that the Beta version is work in progress hence some exsisting features and content may not be available.",
+        "text3": "You need to use a USB cable to update your Hub OS for SPIKE App 3 Beta."
+      }
+    },
+    "blendedLearning": {
+      "backgrounds": "Backgrounds",
+      "done": "Done",
+      "random": "Pick Random"
+    },
+    "blockly": {
+      "confirmDialog": {
+        "cancel": "Cancel",
+        "ok": "OK"
+      }
+    },
+    "bluetoothWarning": {
+      "gecko": {
+        "text": "The SPIKE™ App requires access to Bluetooth to connect to the SPIKE Hub. To continue, please input the following sequence as numerical digits to confirm that you are over 18 years old or ask an adult for help if you are not:"
+      }
+    },
+    "browserDisclaimer": {
+      "header": "Browser not supported",
+      "text": "Use Google Chrome to access the \nLEGO® Education SPIKE™ App."
+    },
+    "browserSupport": {
+      "feature": {
+        "auto-save": "Auto-saving projects",
+        "connect": "Connecting to the Hub"
+      },
+      "featureIntro": "Your browser can’t run SPIKE App,\nbecause it doesn’t support:",
+      "recommendation": "We recommend using Google Chrome on Chromebook, Windows or macOS."
+    },
+    "buildPage": {
+      "noBuildingInstructions": "Download one of the Units to get Building Instructions"
+    },
+    "buildinginstructions": {
+      "done": "Done",
+      "duration": "{{duration}} min.",
+      "levels": {
+        "advanced": "Advanced",
+        "beginner": "Beginner",
+        "intermediate": "Intermediate"
+      },
+      "notFound": "Building instructions not found",
+      "selectortitle": "Select building instructions",
+      "steps": "{{steps}} steps",
+      "title": "Building Instructions"
+    },
+    "button": {
+      "goToSettings": "Go to Settings"
+    },
+    "closingWebAppDisclaimer": {
+      "header": "Remember to save your work!",
+      "text": "Download your projects before leaving to save your work."
+    },
+    "colors": {
+      "azure": "azure",
+      "black": "black",
+      "blue": "blue",
+      "cyan": "cyan",
+      "green": "green",
+      "lightGreen": "light green",
+      "none": "no color",
+      "orange": "orange",
+      "pink": "pink",
+      "purple": "purple",
+      "random": "random color",
+      "red": "red",
+      "violet": "violet",
+      "white": "white",
+      "yellow": "yellow"
+    },
+    "confirmDialog": {
+      "closeProjectWithoutSave": "This project is not saved, are you sure you want to close it?"
+    },
+    "connecting": {
+      "back_to_project": "back to project",
+      "bluetooth": "Bluetooth",
+      "bluetooth_BLE": "Turn on your Hub to activate Bluetooth",
+      "bluetooth_BLE_identify": "Identify your Hub",
+      "bluetooth_choose": "Choose your Hub",
+      "bluetooth_connect": "Connect",
+      "bluetooth_connected_to": "Connected to {{hubName}}",
+      "bluetooth_searching": "Looking for nearby Hubs…",
+      "bluetooth_step1": "1. Turn on the Hub.",
+      "bluetooth_step2": "2. Activate Bluetooth.",
+      "bluetooth_step3": "3. Connect.",
+      "cable_connect": "Use the USB cable to connect the Hub and device",
+      "cable_step1": "1. Insert the cable into the Hub.",
+      "cable_step2": "2. Insert the cable into the device.",
+      "change_hub_type": "CHANGE",
+      "connect": "Connect",
+      "connect_via_bluetooth": "Connect via Bluetooth",
+      "connect_via_cable": "Connect via cable",
+      "connected_label": "You are connected to:",
+      "connection_flow": "Connection Flow",
+      "disconnect": "Disconnect",
+      "education_name": "LEGO Education",
+      "find_hub": "Let's find your Hub",
+      "hub_name": "SPIKE Essential",
+      "rename_done": "Done",
+      "rename_enter_name": "Enter name here",
+      "rename_your_hub": "Give your Hub a unique name.",
+      "select_hub": "Select your Hub",
+      "title": "Connect Hub",
+      "usb": "USB",
+      "usb_connect": "Connect your Hub via cable"
+    },
+    "connection": {
+      "bluetooth": {
+        "guide1": "Press and hold to turn on your Hub",
+        "guide2": "Turn on Bluetooth"
+      },
+      "cantConnect": "Can’t Connect?",
+      "iPad": {
+        "fallback": "Having trouble connecting via Bluetooth? Use the USB cable to connect to a computer and try again."
+      },
+      "open": "Open",
+      "showMe": "Show me how",
+      "usb": {
+        "essential": {
+          "guide2": "Press the button to turn on your Hub"
+        },
+        "guide1": "Use the USB cable to connect the Hub and device"
+      },
+      "webGuide1": "Open the Connection Window and find your Hub",
+      "webGuide2": "Find your Hub in the connection window",
+      "webGuide3": "Click on the Hub name, then click on ‘Pair’"
+    },
+    "content": {
+      "activity": "Lesson",
+      "aria_full_screen": "Show in full screen",
+      "aria_next_step": "Go to next step",
+      "aria_prev_step": "Go to previous step",
+      "build_link": "Build",
+      "building_instructions": {
+        "title": "Building instructions"
+      },
+      "hint_link": "Hint",
+      "knowledge_base": "Knowledge Base",
+      "monitors": "Variables"
+    },
+    "coppaWarning": {
+      "allowButton": "Teacher",
+      "denyButton": "Student",
+      "gecko": {
+        "allowButton": "Yes",
+        "answer": "Answer",
+        "button": "I’m over 18",
+        "denyButton": "No",
+        "text": "This is for grown-ups. You are about to leave the app.\n\nTo continue please input the following sequence as numerical digits and confirm that you are over 18 years old:",
+        "title": "Wait..."
+      },
+      "text": "Before you proceed, we need to know if you are a teacher or student",
+      "title": "Wait..."
+    },
+    "dataProcessPolicy": {
+      "more_information": "More information",
+      "text": "We process non-identifiable information in order to provide a functioning experience in this application."
+    },
+    "dfu": {
+      "modal": {
+        "cancel": "Cancel",
+        "start": "Start",
+        "text": "Get your Hub working again",
+        "title": "Recovery"
+      }
+    },
+    "dialogs": {
+      "dataExceeded": {
+        "clearGraph": "Clear line graph",
+        "close": "Close",
+        "importText": "Your recorded data exceeds the maximum allowable size. Only the first entries were imported from the Hub.",
+        "text": "Your line graph data has exceeded the maximum allowable size. Clear the graph to add more data.",
+        "title": "Heads Up!"
+      }
+    },
+    "errorHandling": {
+      "missingSteps": {
+        "description": "There are no steps on this activity",
+        "title": "Steps missing"
+      },
+      "missingUnit": "Couldn't find the content unit",
+      "wereSorry": "We're sorry"
+    },
+    "errors": {
+      "dismiss": "Dismiss",
+      "program_execution_error": "Program could not be executed",
+      "program_memory_error": "Not enough memory, you may be able to run in Streaming Mode.",
+      "title": "An error occurred"
+    },
+    "extensions": {
+      "add": "Add",
+      "added": "Added",
+      "descriptions": {
+        "bargraphmonitor": "This extension allows you to display bar graphs",
+        "breakout": "Open the Ultrasonic Sensor to get access to the raw pins and connect non-LEGO motors and sensors.",
+        "device": "Play sounds from your computer’s speakers or control your model using your keyboard or microphone.",
+        "displaymonitor": "This extension allows you to display images or text",
+        "flippermoremotor": "Make motors hold their position or run motors with unregulated power.",
+        "flippermoremove": "Set the individual motor speed on a Driving Base or make it hold its position.",
+        "flippermoresensors": "This extension provides additional sensor data, such as acceleration and raw color readings.",
+        "flippermusic": "Play instruments and drums. \n Music will play from your computer or tablet.",
+        "horizontalbargraphmonitor": "Log and visualize data on a Bar Graph",
+        "horizontaldisplaymonitor": "This extension allows you to display images or text",
+        "horizontalmove": "Set the individual motor speed on a Driving Base or make it hold its position.",
+        "linegraphmonitor": "This extension allows you to display and experiment with line graphs.",
+        "weather": "Get this week's weather forecast. Your computer needs to be connected to the internet. Weather forecast from Yr, delivered by the Norwegian Meteorological Institute and NRK."
+      },
+      "header": "Extensions",
+      "import": "Import",
+      "internet_required": "Internet Required",
+      "learn_more": "Learn More",
+      "reset": "Reset",
+      "scratchmusic": {
+        "title": "Music"
+      },
+      "sets": {
+        "coreset": "Core set",
+        "expansionset": "Expansion set"
+      }
+    },
+    "feedback": {
+      "button": "Submit feedback",
+      "description": "Open a feedback window to provide information about an app-related issue.",
+      "header": "Feedback"
+    },
+    "field-types": {
+      "port-selector": {
+        "all": "All",
+        "multiple": "Multiple"
+      }
+    },
+    "firmware": {
+      "modal": {
+        "unknownFirmwareDialog": {
+          "dismiss": "DISMISS",
+          "text": "The Hub OS needs to be updated.",
+          "title": "Update Hub",
+          "update": "UPDATE"
+        }
+      },
+      "progress": {
+        "battery-low": "Battery is low, please plug-in your Hub first",
+        "bt-done": {
+          "dialog": {
+            "header": "Restart to complete update",
+            "text": "Press and hold the Center Button for approximately 20 seconds until the Hub turns on."
+          },
+          "toast": {
+            "done": "Done",
+            "reconnect": "Reconnect",
+            "text": "Hub OS update complete. Reconnect your Hub now."
+          }
+        },
+        "done": "Done",
+        "failure": "An error occurred while updating the Hub OS",
+        "failure-USB": "If the problem persists use the USB cable to connect to a computer. Visit spike.legoeducation.com to update your Hub.",
+        "failure-reconnect": "An error occurred while updating the Hub OS. Please reconnect the Hub and try again.",
+        "header": "Updating Hub OS",
+        "success": "Hub OS has been updated",
+        "success-reconnect": "The Hub OS has been updated. Please hold down the power button for 4 seconds and reconnect your Hub.",
+        "success-restart": "Restart Your Hub",
+        "success-turnOff": "Press and hold to turn off your Hub"
+      },
+      "toasts": {
+        "dismiss": "Dismiss",
+        "update": "Update",
+        "updateAvailable": "Hub OS update available"
+      },
+      "usbupdate": {
+        "header": "Update Hub",
+        "text": "Hub OS needs to be updated. This update can only be done with a USB connection on a Windows or Mac device."
+      }
+    },
+    "firmwareUpdate": {
+      "connectWithUSB": "Connect with cable",
+      "downgrade": "Downgrade",
+      "downgradeHubOS": "Downgrade Hub OS",
+      "downgradeNotification": "Your Hub has been updated to a newer version than the app.",
+      "mindstormsHub": "This Hub cannot be used with the SPIKE app.",
+      "noUSB": {
+        "body": "The update needs a USB connection. Use the USB cable to connect the Hub and device and go to:",
+        "linkText": "www.LEGOEducation.com/HubOS",
+        "text": "If you have trouble connecting your Hub over Bluetooth, try to connect it to a device with a USB port using the USB cable and go to: ",
+        "title": "Your Hub needs to be updated"
+      },
+      "notification": "Updating Hub OS",
+      "promptForUSB": "Use the USB cable for a faster Hub OS Update",
+      "updateHubOS": "Update Hub OS"
+    },
+    "general": {
+      "accessibility": "Accessibility",
+      "back": "Back",
+      "beta": "Beta",
+      "cancel": "Cancel",
+      "check": "Check",
+      "colors": {
+        "blue": "Blue",
+        "green": "Green",
+        "red": "Red",
+        "white": "White"
+      },
+      "comingSoon": "Coming Soon",
+      "done": "Done",
+      "learnMore": "Learn More",
+      "leave": "Leave",
+      "next": "Next",
+      "numbersInText": {
+        "eight": "Eight",
+        "five": "Five",
+        "four": "Four",
+        "nine": "Nine",
+        "one": "One",
+        "seven": "Seven",
+        "six": "Six",
+        "three": "Three",
+        "two": "Two",
+        "zero": "Zero"
+      },
+      "off": "Off",
+      "ok": "OK",
+      "open": "Open",
+      "openProject": "Open Project",
+      "select": "Select",
+      "version": "Version",
+      "whoops": "Whoops!"
+    },
+    "gettingstarted": {
+      "allDone": {
+        "descriptionEssential": "You've finished all tutorials and you're now ready to explore SPIKE Essential",
+        "descriptionPrime": "You've finished all tutorials and you're now ready to explore SPIKE Prime",
+        "goToHome": "Go To Home",
+        "goToOnlineLessons": {
+          "subtitle": "Go to Online lesson plans",
+          "title": "I am a teacher"
+        },
+        "goToUnits": {
+          "subtitle": "Go to Units",
+          "title": "I am a student"
+        },
+        "imageAltEssential": "Four happy LEGO Minifigures waving",
+        "imageAltPrime": "Two smiling LEGO Minifigures, one is waving",
+        "subtitleEssential": "Explore SPIKE Essential",
+        "subtitlePrime": "Explore SPIKE Prime",
+        "title": "All done!"
+      },
+      "continueTitle": "Let's continue!"
+    },
+    "hardware": {
+      "header": {
+        "battery_level": "{{charge}} %",
+        "brick_os": "Hub OS: {{version}}",
+        "disconnect": "Disconnect",
+        "disconnect_guide": {
+          "headline": "Disconnect the Hub",
+          "text": "Go to Settings on your device > Go to Bluetooth > Press the information icon next to the Hub > Press “Disconnect”"
+        },
+        "menu": {
+          "delete_all": "Delete all programs",
+          "reset_settings": "Reset settings"
+        },
+        "rename": "Rename",
+        "update": "Update"
+      },
+      "hub": {
+        "battery": "Battery",
+        "disconnectbutton": "Disconnect",
+        "hubnameheader": "Name of the Hub",
+        "hubversion": "Hub OS: {{version}}",
+        "manageprogramsbutton": "Manage programs on Hub",
+        "memory": "Memory",
+        "notconnected": "No Hub connected"
+      },
+      "manageData": {
+        "actions": {
+          "deleteAll": "Delete All",
+          "deselectAll": "Deselect All",
+          "export": "Export",
+          "selectAll": "Select All"
+        },
+        "created": "Created",
+        "delete": "Delete",
+        "deleteModal": {
+          "cancel": "No, don't delete",
+          "delete": "Yes, delete",
+          "text": "Deleting {{dataName}} will remove it from the Hub."
+        },
+        "modified": "Modified",
+        "name": "Name",
+        "noData": "No data",
+        "size": "Size",
+        "sizeWithUnitBytes": "{{size}} B",
+        "sizeWithUnitKiloBytes": "{{size}} KB",
+        "type": "Type"
+      },
+      "managePrograms": {
+        "created": "Created",
+        "delete": "Delete",
+        "deleteModal": {
+          "cancel": "No, don't delete",
+          "delete": "Yes, delete",
+          "text": "Deleting \"{{programName}}\" will remove it from the Hub."
+        },
+        "led": "LED",
+        "modified": "Modified",
+        "name": "Name",
+        "size": "Size",
+        "sizeWithUnitBytes": "{{size}} B",
+        "sizeWithUnitKiloBytes": "{{size}} kB"
+      },
+      "modal": {
+        "title": "Rename Hub"
+      },
+      "position": {
+        "acceleration": "Acceleration",
+        "angle": "Tilt angle",
+        "gyro": "Gyro rate",
+        "orientation": "Orientation",
+        "x": "X",
+        "y": "Y",
+        "z": "Z"
+      },
+      "sensors": {
+        "names": {
+          "boostVision": {
+            "0": "Color"
+          },
+          "color": {
+            "0": "Color",
+            "1": "Reflect",
+            "2": "red",
+            "3": "Green",
+            "4": "Blue"
+          },
+          "distance": {
+            "0": "Distance (cm)",
+            "1": "Distance (inches)",
+            "2": "Distance (percent)"
+          },
+          "force": {
+            "0": "Force",
+            "1": "Touched",
+            "4": "Force raw"
+          },
+          "motor": {
+            "0": "Power",
+            "1": "Speed",
+            "2": "Relative position",
+            "3": "Position"
+          },
+          "unknown": {
+            "-1": "Unknown"
+          }
+        }
+      },
+      "tabs": {
+        "data": "Data",
+        "hardwarePage": "Dashboard",
+        "manageFiles": "Manage programs"
+      },
+      "unit": {
+        "48": {
+          "0": "%",
+          "1": "%",
+          "2": "°",
+          "3": "°"
+        },
+        "49": {
+          "0": "%",
+          "1": "%",
+          "2": "°",
+          "3": "°"
+        },
+        "61": {
+          "0": "",
+          "1": "%",
+          "2": "red",
+          "3": "green",
+          "4": "blue"
+        },
+        "62": {
+          "0": "cm",
+          "1": "in",
+          "2": "%"
+        },
+        "63": {
+          "0": "N",
+          "1": " ",
+          "4": ""
+        },
+        "65": {
+          "0": "%",
+          "1": "%",
+          "2": "°",
+          "3": "°"
+        },
+        "75": {
+          "0": "%",
+          "1": "%",
+          "2": "°",
+          "3": "°"
+        },
+        "76": {
+          "0": "%",
+          "1": "%",
+          "2": "°",
+          "3": "°"
+        }
+      }
+    },
+    "help": {
+      "navigationLabel": "Help navigation",
+      "onlinesupport": "Online Technical Support",
+      "rightClickMenu": "Help"
+    },
+    "host-popup": {
+      "message": "Please start the SPIKE app and refresh your browser",
+      "title": "No SPIKE app running"
+    },
+    "hubOS-update": {
+      "atlantis": {
+        "disclaimer": {
+          "headline": "Read this before you update!",
+          "text1": "You are about to install a beta version of the Hub OS. This version will improve the Bluetooth connection and motor performance. However, not all previous functionalities are included.",
+          "text2": "SPIKE App 3 is not compatible with SPIKE App 2.",
+          "text3": "If you update and want to use SPIKE App 2 again, you need to downgrade the Hub OS."
+        },
+        "headline": "There is a new Hub OS update.",
+        "headline2": "You might need to update your Hub OS",
+        "skip": "Already updated",
+        "text": "What color is your Power Button?",
+        "update": "Update now",
+        "version": "Hub OS version",
+        "whiteBlue": "White or Blue"
+      },
+      "essentialToAtlantis": {
+        "text": "What color is the light?"
+      },
+      "pt-atlantis": {
+        "disclaimer": {
+          "ctaDontUpdate": "Don’t update",
+          "ctaUpdate": "Update Hub OS",
+          "text1": "Your Hub OS needs to be updated to work with SPIKE App 3. Do you want to update your Hub OS now?",
+          "text2": "Please note that updating will delete any programs stored on the Hub. Your updated Hub won't work with previous SPIKE App versions.",
+          "text3": "If you want to connect an updated Hub using SPIKE Legacy App, ​you need to downgrade the Hub. The Hub downgrade tool is only available on macOS and ChromeOS."
+        }
+      }
+    },
+    "hubselector": {
+      "essential": "Essential",
+      "prime": "Prime",
+      "spike": "Spike",
+      "title": "Select your Hub"
+    },
+    "intro-page": {
+      "footer": {
+        "prepare": "Go to the teacher preparation material.",
+        "slide-1": "Please confirm that you have everything you'll need to get the most out of SPIKE™ Prime.",
+        "slide-2": "Build your SPIKE™ Prime creation and connect it to your smart device.",
+        "slide-3": "Stack programming blocks to build your program.",
+        "slide-4": "Play your program to see if your SPIKE™ Prime creation works as you intended.",
+        "start": "Get started with SPIKE™ Prime."
+      },
+      "gecko": {
+        "footer": {
+          "slide-1": "Please confirm that you have everything you'll need to get the most out of SPIKE™ Essential.",
+          "slide-2": "Build your SPIKE™ Essential creation and connect it to your smart device.",
+          "slide-4": "Play your program to see if your SPIKE™ Essential creation works as you intended.",
+          "start": "Get started with SPIKE™ Essential."
+        },
+        "header": {
+          "slide-1": "Welcome to \n SPIKE™ Essential"
+        }
+      },
+      "header": {
+        "slide-1": "Welcome to \n SPIKE™ Prime",
+        "slide-2": "Build",
+        "slide-3": "Code",
+        "slide-4": "Learn",
+        "slide-5": "Let's begin!"
+      },
+      "prepare": "PREPARE",
+      "skip-intro": "SKIP",
+      "start": "START"
+    },
+    "killSwitchWarning": {
+      "title": "Wait..."
+    },
+    "languages": {
+      "ar-AE": {
+        "country": "المملكة العربية السعودية",
+        "label": "العربية"
+      },
+      "da-DK": {
+        "country": "Danmark",
+        "label": "Dansk"
+      },
+      "de-DE": {
+        "country": "Deutschland",
+        "label": "Deutsch"
+      },
+      "en-AU": {
+        "country": "Australia",
+        "label": "English (Australian)"
+      },
+      "en-GB": {
+        "country": "United Kingdom",
+        "label": "English (United Kingdom)"
+      },
+      "en-US": {
+        "country": "United States",
+        "label": "English (United States)"
+      },
+      "es-ES": {
+        "country": "España",
+        "label": "Español"
+      },
+      "es-MX": {
+        "country": "México",
+        "label": "Español (México)"
+      },
+      "fi-FI": {
+        "country": "Suomi",
+        "label": "Suomi"
+      },
+      "fr-FR": {
+        "country": "France",
+        "label": "Français"
+      },
+      "it-IT": {
+        "country": "Italia",
+        "label": "Italiano"
+      },
+      "ja-JP": {
+        "country": "日本",
+        "label": "日本語"
+      },
+      "ko-KR": {
+        "country": "한국",
+        "label": "한국어"
+      },
+      "nb-NO": {
+        "country": "Norge",
+        "label": "Norsk"
+      },
+      "nl-NL": {
+        "country": "Nederland",
+        "label": "Nederlands"
+      },
+      "pl-PL": {
+        "country": "Polska",
+        "label": "Polski"
+      },
+      "pt-BR": {
+        "country": "Brasil",
+        "label": "Português (Brasil)"
+      },
+      "ru-RU": {
+        "country": "Россия",
+        "label": "Русский"
+      },
+      "sv-SE": {
+        "country": "Sverige",
+        "label": "Svenska"
+      },
+      "tr-TR": {
+        "country": "Türkiye",
+        "label": "Türkçe"
+      },
+      "vi-VN": {
+        "country": "Việt Nam",
+        "label": "Tiếng Việt"
+      },
+      "zh-CN": {
+        "country": "中国",
+        "label": "中文"
+      }
+    },
+    "level": "Beginner",
+    "lobby": {
+      "disclaimer": "LEGO, the LEGO logo, the Minifigure and the SPIKE logo are trademarks and/or copyrights of the LEGO Group. ©2020 - 2023 The LEGO Group. All rights reserved.",
+      "essential": {
+        "banner": {
+          "description": "Learn to use SPIKE Essential with 5 easy tutorial activities.",
+          "link": {
+            "title": "Start"
+          },
+          "title": "Get started with SPIKE™ Essential"
+        },
+        "cards": {
+          "instructions": {
+            "description": "A comprehensive library of building instructions for SPIKE Essential models.",
+            "title": "Building Instructions"
+          },
+          "unitplans": {
+            "description": "The SPIKE Essential units, made up of fun, engaging STEAM lessons for primary school students.",
+            "title": "Unit Plans"
+          }
+        }
+      },
+      "prime": {
+        "banner": {
+          "description": "Learn to use SPIKE Prime in 6 easy steps!",
+          "link": {
+            "title": "Start"
+          },
+          "title": "Get started with SPIKE™ Prime"
+        },
+        "cards": {
+          "instructions": {
+            "description": "A library of building instructions for all of the SPIKE Prime models.",
+            "title": "Building Instructions"
+          },
+          "unitplans": {
+            "description": "All of the SPIKE Prime lessons, grouped into themed units to actively engage middle school students in STEAM learning.",
+            "title": "Unit Plans"
+          }
+        }
+      },
+      "projects": {
+        "created": "Created",
+        "delete": "Delete",
+        "modified": "Modified",
+        "name": "Name",
+        "new_project": "New Project",
+        "show_all": "Show All",
+        "size": "Size",
+        "title": "Recent projects"
+      }
+    },
+    "migrateProject": {
+      "spike2": {
+        "python": "This project was made with SPIKE App 2. You’ll need to update the code to use the new Python modules to run it."
+      }
+    },
+    "monitors": {
+      "copy": "Copy",
+      "export": "Export",
+      "import": "Import",
+      "labels": {
+        "list": "List: {{listName}}",
+        "missing": "Label missing: {{opcode}}",
+        "sensing_timer": "timer",
+        "sound_volume": "volume",
+        "var": "Variable: {{varName}}"
+      },
+      "no_monitors": "No monitors have been added.",
+      "remove_all": "Remove all items"
+    },
+    "navigation": {
+      "content_management": "Content management",
+      "hardware": "Hardware",
+      "help": "Help",
+      "home": "Home",
+      "models": "Build",
+      "my_projects": "My Projects",
+      "scratch": "Scratch",
+      "settings": "Settings",
+      "start": "Start",
+      "units": "Units"
+    },
+    "new-connection": {
+      "long": "Press the button and your Hub will be highlighted on the list of available Hubs",
+      "press": "Press the button on the Hub",
+      "tiptext": "Tip for identifying your Hub"
+    },
+    "openProject": {
+      "spike2": {
+        "python": "This project was made with SPIKE App 2. Unfortunately, it cannot be opened in SPIKE App 3.",
+        "wordblocks": "This project was made with SPIKE App 2. It might work slightly different in SPIKE App 3."
+      }
+    },
+    "productSelection": {
+      "gotIt": "Got it"
+    },
+    "productselector": {
+      "essential": "Essential",
+      "prime": "Prime",
+      "spike": "Spike",
+      "title": "Select your\n SPIKE™ solution"
+    },
+    "projects": {
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "deleteAll": "Delete All",
+      "deselectAll": "Deselect All",
+      "duplicate": "Duplicate",
+      "menu": {
+        "export": "Export",
+        "move": "Move to...",
+        "rename": "Rename project...",
+        "saveAs": "Save as..."
+      },
+      "modal": {
+        "deleteAllDialog": {
+          "text": "Are you sure you want to delete all of your projects?",
+          "title": "Heads up!"
+        },
+        "deleteDialog": {
+          "textPluralis": "Are you sure you want to delete all of the selected projects?",
+          "textSingular": "Are you sure you want to delete the selected project?"
+        },
+        "invalidProjectFile": {
+          "button": "DISMISS",
+          "text": "Could not open project",
+          "title": "Heads up!"
+        },
+        "newProjectDialog": {
+          "button": "Create",
+          "title": "New Project"
+        },
+        "renameDialog": {
+          "title": "Project name"
+        }
+      },
+      "rename": "Rename",
+      "save": "Save",
+      "search": "Search",
+      "selectAll": "Select All",
+      "share": "Share",
+      "title": "My Projects",
+      "types": {
+        "icon": "Icon blocks",
+        "python": "Python",
+        "vertical": "Word Blocks"
+      }
+    },
+    "promt": {
+      "body": {
+        "allowBluetooth": "Allow the SPIKE App to use Bluetooth in your device Settings. Bluetooth is needed to connect to your Hub.",
+        "allowMicrophone": "Allow the SPIKE App to use Microphone in your device Settings. The Microphone is needed to use the loudness blocks and record sounds.",
+        "openingProjectMissingUnit": "The project your are trying to open is part of a Lesson. \nDownload the Unit that contains the lesson before opening the project."
+      },
+      "header": {
+        "allowBluetooth": "The SPIKE™ App would like to use Bluetooth",
+        "allowMicrophone": "The SPIKE™ App would like to use the Microphone",
+        "openingProjectMissingUnit": "This project is part of a Lesson"
+      }
+    },
+    "python": {
+      "clearconsole": "Clear Console",
+      "codesnippet": "Code Snippet",
+      "console": "Console",
+      "copiedclipboard": "Copied to Clipboard",
+      "copy": "Copy",
+      "copypaste": "Copy/Paste",
+      "find": "Find",
+      "findreplace": "Find & Replace",
+      "knowledgebase": "Knowledge Base",
+      "paste": "Paste",
+      "pythoneditor": "Python Editor",
+      "replace": "Replace",
+      "search": "Search"
+    },
+    "scienceUnit": {
+      "add-image": "Add image",
+      "average": "Average",
+      "avg": "Avg.",
+      "color1": "violet",
+      "color2": "blue",
+      "color3": "azure",
+      "color4": "green",
+      "color5": "yellow",
+      "color6": "red",
+      "combinedview": "Combined View",
+      "copy": "Copy",
+      "created": "Created",
+      "data": "Data",
+      "delete": "Delete",
+      "deselectAll": "Deselect All",
+      "export": "Export",
+      "hub": "Hub",
+      "import": "Import",
+      "importfromhub": "Import from Hub",
+      "importsource": "Select Import Source",
+      "line": "Line",
+      "lineandscatter": "Line and Scatter",
+      "linegraph": "Line Graph",
+      "max": "Max.",
+      "maximum": "Maximum",
+      "min": "Min.",
+      "minimum": "Minimum",
+      "modified": "Modified",
+      "mydevice": "My Device",
+      "name": "Name",
+      "now": "Now",
+      "openFullscreenGraph": "Open fullscreen graph",
+      "resetzoom": "Reset Zoom",
+      "scatter": "Scatter",
+      "selectall": "Select All",
+      "size": "Size",
+      "splitview": "Split View",
+      "table": "Table",
+      "time": "Time",
+      "toggleMultipleYAxes": "Toggle multiple y-axes",
+      "type": "Type",
+      "x-axis": "X-Axis",
+      "zoomin": "Zoom In",
+      "zoomout": "Zoom Out"
+    },
+    "scratch": {
+      "connect": "connect",
+      "connectHighlight": "Press to connect to your Hub",
+      "empty": {
+        "lobbySubHeader": "Explore learning materials",
+        "newHeader": "New project",
+        "newSubHeader": "Create new Programming Canvas"
+      },
+      "executionModePicker": {
+        "download": "Download",
+        "streaming": "Streaming"
+      },
+      "footer": {
+        "openExecutionMode": "Open play mode",
+        "openSlotPicker": "Open download selector",
+        "play": "Play program",
+        "redo": "Redo program",
+        "stop": "Stop program",
+        "undo": "Undo program",
+        "zoomIn": "Zoom In program",
+        "zoomOut": "Zoom Out program",
+        "zoomToFit": "Zoom to fit program"
+      },
+      "header": {
+        "modal": {
+          "cancel": "Cancel",
+          "save": "Save",
+          "title": "Project name"
+        }
+      },
+      "myblocks": {
+        "modal": {
+          "cancel": "Cancel",
+          "noScreenUpdate": "Run without screen refresh",
+          "options": {
+            "addInput": "Add an input",
+            "addLabel": "Add a label",
+            "boolean": "boolean",
+            "limitReached": "You have reached the maximun number of allowed inputs.",
+            "textNumber": "number or text"
+          },
+          "save": "Save",
+          "title": "Make a block"
+        }
+      },
+      "notifications": {
+        "downloadMode": "Hub is in Download Mode",
+        "streamingMode": "Hub is in Streaming Mode"
+      },
+      "program": {
+        "default": "Project"
+      },
+      "slotPicker": {
+        "title": "Download to"
+      },
+      "toolbox": {
+        "all": "All Products",
+        "changeFilter": "Change toolbox filter",
+        "control": "Control",
+        "device": "Device",
+        "dropdown_title": "Show blocks from",
+        "events": "Events",
+        "lesson": "Lesson",
+        "light": "Light",
+        "motors": "Motors",
+        "movement": "Movement",
+        "myblocks": "My Blocks",
+        "operators": "Operators",
+        "sensing": "Sensors",
+        "showAll": "Show all",
+        "showLess": "Show less",
+        "sound": "Sound",
+        "spikeessential": "SPIKE™ Essential",
+        "spikeprime": "SPIKE™ Prime",
+        "variables": "Variables"
+      }
+    },
+    "screenSizeDisclaimer": {
+      "header": "Screen size not supported",
+      "text": "Use a screen of at least 1024x768 pixels for the optimal experience."
+    },
+    "settings": {
+      "allowAnalytics": "Opt into analytics",
+      "contactUs": "Contact us",
+      "debug": {
+        "header": "Enable Debug Mode"
+      },
+      "general": {
+        "deleteAll": "Delete all unit plans",
+        "downloadAll": "Download all unit plans",
+        "title": "General",
+        "toggleTextOutline": "Toggle extra outline for text on blocks"
+      },
+      "landing": {
+        "general": "General",
+        "help": "Help",
+        "language": "Language",
+        "terms": "Terms of Use",
+        "title": "Settings"
+      },
+      "language": {
+        "title": "Language"
+      },
+      "licenses": {
+        "title": "Licenses"
+      },
+      "menu": {
+        "cookies": "Cookies",
+        "general": "General",
+        "help": "Help",
+        "language": "Language",
+        "legal": "Legal",
+        "licenses": "Licenses",
+        "privacy": "Privacy",
+        "terms": "Terms of Use"
+      },
+      "pythonEnabled": {
+        "description": "If disabled, only Word Block projects can be created.",
+        "header": "Enable Python projects"
+      },
+      "releasechannel": {
+        "header": "Release channel",
+        "options": {
+          "alpha": {
+            "label": "alpha"
+          },
+          "beta": {
+            "label": "beta"
+          },
+          "latest": {
+            "label": "latest"
+          }
+        }
+      },
+      "showAppUpdate": {
+        "description": "A prompt is shown whenever a new update is available for download.",
+        "header": "App update notifications"
+      },
+      "showIntro": {
+        "description": "The intro page explains the main SPIKE concepts",
+        "header": "Show intro"
+      },
+      "showUnitPlanUpdates": {
+        "description": "A prompt is shown whenever a new update is available for download.",
+        "header": "Unit Plan update notifications"
+      },
+      "useLiveContentInAlpha": {
+        "description": "Toggles if content should be fetched from live or staging/test",
+        "header": "Use content from live"
+      },
+      "viewOnline": "More information online"
+    },
+    "sound-editor": {
+      "add-sound": "Add sound",
+      "addToProject": "Add to Project",
+      "buttons": {
+        "echo": "Echo",
+        "faster": "Faster",
+        "louder": "Louder",
+        "redo": "Redo",
+        "reverse": "Reverse",
+        "robot": "Robot",
+        "slower": "Slower",
+        "softer": "Softer",
+        "trim": "Trim",
+        "undo": "Undo"
+      },
+      "cancel": "Cancel",
+      "confirm-delete-modal": {
+        "delete": "Delete",
+        "dismiss": "Dismiss",
+        "text": "Are you sure you want to delete?",
+        "title": "Delete sound"
+      },
+      "confirm-modal": {
+        "dismiss": "Dismiss",
+        "save": "Save",
+        "text": "Do you want to save your changes?"
+      },
+      "default-name": "Recording1",
+      "delete-sound": "Delete sound",
+      "edit": "EDIT",
+      "error-modal": {
+        "button": "DISMISS",
+        "text": "Could not start recording, please check your audio input device.",
+        "title": "Recording error"
+      },
+      "filters": "Filters",
+      "newrecording": "New recording",
+      "play": "Play",
+      "record_error": "Cannot start the audio recorder.",
+      "rename-module": {
+        "cancel": "Cancel",
+        "save": "Save",
+        "title": "Rename sound"
+      },
+      "rerecord": "RE-RECORD",
+      "save": "Save",
+      "sound-tags": {
+        "all": "All sounds",
+        "ambient": "Ambient",
+        "animals": "Animals",
+        "effects": "Effects",
+        "games": "Games",
+        "loops": "Loops",
+        "music": "Music",
+        "notes": "Notes",
+        "people": "People",
+        "space": "Space",
+        "sports": "Sports",
+        "wacky": "Wacky"
+      },
+      "stop": "Stop",
+      "storage": "Hub Storage: {{storage}} pct",
+      "tabs": {
+        "editor": "Editor",
+        "library": "Library",
+        "record": "Record"
+      },
+      "title": "Sound"
+    },
+    "splashScreen": {
+      "LoadingDisclaimer": "This might take several minutes"
+    },
+    "supermonitor": {
+      "bargraph": {
+        "reset": "RESET"
+      },
+      "linegraph": {
+        "reset": "Reset"
+      },
+      "linegraphimport": "Import"
+    },
+    "teacher-preparation": {
+      "end-slide": {
+        "Start": {
+          "subtitle": "Get started with SPIKE™ Prime",
+          "title": "Start"
+        },
+        "help-files": {
+          "subtitle": "Need Help?\n Go to Help Files",
+          "title": "Help Files"
+        },
+        "lesson-plans": {
+          "subtitle": "Start Planning with Lesson Plans",
+          "title": "Lesson Plans"
+        },
+        "support": {
+          "subtitle": "Need Support?\n Go to Support",
+          "title": "Support"
+        }
+      },
+      "footer": {
+        "slide-1": "Apply the stickers to the sorting trays.",
+        "slide-2": "Open the bags and sort the bricks into the compartments.",
+        "slide-3": "Insert the Battery into the Hub.",
+        "slide-4": "Press the big button to turn the power on.",
+        "slide-5": "Label each Hub, motor, sensor, and box with a name or number.",
+        "slide-6": "All Hubs have a default program preinstalled, which is symbolized by a heart",
+        "slide-7": "Your Hub needs to be updated the first time you connect. This update can only be done with a USB connection on a Windows or Mac device."
+      },
+      "header": {
+        "slide-1": "Apply the Stickers",
+        "slide-2": "Sort the Bricks",
+        "slide-3": "Insert the Battery",
+        "slide-4": "Turn On Your Hub",
+        "slide-5": "Identify Your Hardware",
+        "slide-6": "Play with a Default Program",
+        "slide-7": "Update Your Hub"
+      },
+      "skip-intro": "SKIP"
+    },
+    "toasts": {
+      "content": {
+        "download": "Download",
+        "unit_update_available": "Update available for {{unitPlan}}"
+      },
+      "download": {
+        "complete_message": "Download complete",
+        "failed_message": "Download failed"
+      },
+      "hub_connected": {
+        "message": "Hub was successfully connected"
+      },
+      "hub_disconnected": {
+        "connect": "Connect",
+        "dismiss": "Dismiss",
+        "message": "Hub was disconnected"
+      },
+      "project_moved": "Project file was successfully moved",
+      "upload_failed": {
+        "dismiss": "Dismiss",
+        "message": "Something went wrong",
+        "nospace_message": "No space left on Hub"
+      }
+    },
+    "tooltip": {
+      "saveProject": "Save Project"
+    },
+    "tooltips": {
+      "back_to_units": "Back to units",
+      "battery_level": "Current battery level",
+      "close": "Close",
+      "close_lobby": "Close lobby",
+      "close_project": "Close project",
+      "disconnect_hub": "Disconnect the Hub",
+      "download_to_hub": "Download to Hub",
+      "edit_project": "Edit projects",
+      "gs_done": "Done",
+      "hub_version": "Current version on the Hub",
+      "name": "Name",
+      "new_project": "Create new project",
+      "next_step": "Next step",
+      "next_storage_position": "Next storage position",
+      "open_home": "Open home",
+      "open_hub_connection": "Open Hub connection",
+      "open_project_settings": "Open project settings",
+      "pan": "Reset Zoom",
+      "paste": "Paste",
+      "play": "Play",
+      "previous_step": "Previous step",
+      "previous_storage_position": "Previous storage position",
+      "redo": "Redo",
+      "see_as_grid": "See as grid",
+      "see_as_list": "See as list",
+      "select_storage_position": "Select storage position",
+      "settings": "Settings",
+      "show_block_extensions": "Show block extensions",
+      "show_hide_card": "Show/hide card",
+      "show_hide_monitor": "Show/hide monitor",
+      "show_more": "Show more",
+      "start_lesson": "Start lesson",
+      "stop": "Stop",
+      "undo": "Undo",
+      "zoom_in": "Zoom In",
+      "zoom_out": "Zoom Out",
+      "zoom_to_fit": "Zoom to fit"
+    },
+    "troubleshooting": {
+      "anotherUSB": "If possible, try a different USB Cable or a different USB port",
+      "connectUSB": "Connect with the USB cable",
+      "spike2": {
+        "downgrade": "Downgrade Hub",
+        "getSpike3": "Get SPIKE App 3",
+        "greenHub": "Is your Power Button green?",
+        "updatedToSpike3": "Then your Hub OS is updated to use SPIKE App 3"
+      },
+      "spikeUSB": "Make sure you use the white USB cable from the SPIKE set",
+      "stillTrouble": "Still doesn’t work?",
+      "turnOn": "Make sure you turn on the Hub",
+      "updateWithUSB": "You need to update your Hub OS with the USB cable"
+    },
+    "unitplans": {
+      "activities": "Lessons",
+      "cancel": "Cancel download",
+      "download": "Download",
+      "forEducators": "For educators",
+      "grade": "Grade {{grade}}",
+      "lessonplanlink": "Lesson plan",
+      "level": {
+        "Advanced": "Advanced",
+        "Beginner": "Beginner",
+        "Intermediate": "Intermediate"
+      },
+      "minutes": "{{duration}} min.",
+      "more": "More",
+      "redownload": "Re-download",
+      "required": "Required",
+      "restore": "Restore content",
+      "start": "Start",
+      "subtitleLabel": "Subtitle",
+      "teacherSupport": "VIEW LESSON PLANS AND TEACHER SUPPORT",
+      "title": "Unit Plans",
+      "updateAvailable": "UPDATE AVAILABLE",
+      "viewLessonplan": "View lesson plan",
+      "viewOnline": "More information online"
+    },
+    "versionGuardWarning": {
+      "title": "Wait...",
+      "updateButton": "Update"
+    },
+  "webApp": {
+      "spike3-2": {
+        "disclaimer": {
+          "ctaLegacy": "Open SPIKE Legacy App",
+          "ctaSpike3": "Use SPIKE App 3",
+          "header": "Welcome to SPIKE App 3!​",
+          "text1": "In SPIKE App 3 there are vast improvements to Bluetooth connectivity, support for bigger user programs, better motor performance, and much more.",
+          "text2": "Please note that coding in Python or opening existing programs is not yet possible. To use Python or open saved programs created in a previous version of the SPIKE App, please use the SPIKE Legacy App.",
+          "text3": "Are you ready to experience SPIKE App 3 or do you want to open the SPIKE Legacy App?"
+        }
+      },
+      "spike3": {
+        "toLegacy": {
+          "info": {
+            "text": "To open SPIKE App 2 projects or use Python, go to spikelegacy.legoeducation.com."
+          }
+        }
+      }
+    },
+    "whatsNew": {
+      "dimissForever": "Don’t show me this again",
+      "getSpike3": "Get SPIKE App 3",
+      "header": {
+        "bluetooth": "Improved Bluetooth Connection",
+        "firmwareAndMore": "New firmware",
+        "python": "New Python API",
+        "pythonComing": "Python Coming Soon",
+        "spike3-promotion": "There is a new version of the SPIKE App"
+      },
+      "staySpike2": "Use SPIKE Legacy App",
+      "text": {
+        "bluetooth": "Making it faster to connect to your SPIKE Prime Hub over Bluetooth",
+        "firmwareAndMore": "To get started update your Hub OS. Teachers are recommended to update all hubs with the USB cable prior to a lesson.",
+        "python": "Making it easier to transition from Word Blocks to Python",
+        "pythonComing": "A new Python API will be coming soon. Use the SPIKE Legacy app for Python until then.",
+        "spike3-promotion": "Update to SPIKE App 3 to get better Bluetooth connection for SPIKE Prime, and many other improvements.\n\nTo open existing programs or use Python, keep using the SPIKE Legacy App."
+      },
+      "title": "What’s New in SPIKE App 3",
+      "titleSpike3-promotion": "New SPIKE App",
+      "updateHub": "Update Hub OS"
+    },
+    "windowSizeDisclaimer": {
+      "header": "Window size not supported",
+      "text": "Make sure your window is at least 1024x768 pixels for the optimal experience."
+    }
+  }

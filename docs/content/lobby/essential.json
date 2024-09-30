@@ -1,0 +1,38 @@
+[
+    {
+      "type": "banner",
+      "title": "lobby.essential.banner.title",
+      "description": "lobby.essential.banner.description",
+      "link": {
+        "path": "/essential/start/",
+        "title": "lobby.essential.banner.link.title"
+      },
+      "background": "#00a845",
+      "image": {
+        "image": "/images/essential-lobby-home.png",
+        "color": "#00a845"
+      }
+    },
+    {
+      "type": "recentprojects"
+    },
+    {
+      "type": "cards",
+      "cards": [
+        {
+          "title": "lobby.essential.cards.unitplans.title",
+          "description": "lobby.essential.cards.unitplans.description",
+          "image": "/images/essential-lobby-unit-plans.png",
+          "background": "#fbfbfb",
+          "link": "/essential/unit-plans/"
+        },
+        {
+          "title": "lobby.essential.cards.instructions.title",
+          "description": "lobby.essential.cards.instructions.description",
+          "image": "/images/essential-lobby-building-instructions.png",
+          "background": "#fbfbfb",
+          "link": "/essential/models/"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,38 @@
+[
+    {
+      "type": "banner",
+      "title": "lobby.prime.banner.title",
+      "description": "lobby.prime.banner.description",
+      "link": {
+        "path": "/prime/start/",
+        "title": "lobby.prime.banner.link.title"
+      },
+      "background": "#00D4FF",
+      "image": {
+        "image": "/images/lobby-home-heart.png",
+        "color": "#00D4FF"
+      }
+    },
+    {
+      "type": "recentprojects"
+    },
+    {
+      "type": "cards",
+      "cards": [
+        {
+          "title": "lobby.prime.cards.unitplans.title",
+          "description": "lobby.prime.cards.unitplans.description",
+          "image": "/images/updated-lobby-unit-plans.png",
+          "background": "#fbfbfb",
+          "link": "/prime/unit-plans/"
+        },
+        {
+          "title": "lobby.prime.cards.instructions.title",
+          "description": "lobby.prime.cards.instructions.description",
+          "image": "/images/updated-lobby-building-instructions.png",
+          "background": "#fbfbfb",
+          "link": "/prime/models/"
+        }
+      ]
+    }
+  ]
