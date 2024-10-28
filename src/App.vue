@@ -220,7 +220,7 @@ import { nextTick, onMounted } from 'vue'
         comments: false,
         disable: false,
         collapse: false,
-        media: '/src/openblock-blocks/media/',
+        media: '/libs/openblock-blocks/media/',
         readOnly: false,
         toolbox: toolbox,
         rtl: false,

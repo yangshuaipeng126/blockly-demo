@@ -7,6 +7,9 @@ export default defineConfig({
   base: './',
   publicDir: 'public',
   build: {
-    outDir: "docs"
+    outDir: "docs",
+    rollupOptions: {
+      external: ['blockly'],
+    },
   },
 })
