@@ -1,0 +1,109 @@
+name: Weekly Update Translations
+
+on:
+  schedule:
+    - cron: '0 1 * * 1,4' # Runs at 01:00 UTC on Monday and Thursday
+
+jobs:
+  weekly-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Set up Python 2.7
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            python2.7 python2.7-dev python2-pip-whl
+          sudo ln -sf python2.7 /usr/bin/python
+          export PYTHONPATH=`echo /usr/share/python-wheels/pip-*py2*.whl`
+          sudo --preserve-env=PYTHONPATH python -m pip install --upgrade pip setuptools wheel
+          sudo chown -R $USER /usr/local/lib/python2.7
+
+      - run: npm ci
+
+      - name: Update openblock-l10n
+        run: npm i --save openblock-l10n@latest
+
+      # Don't push translations to TX, just pull, The push step will be run by the enterprise edition repository.
+      # - name: Sync translations
+      #   run: |
+      #     export TX_TOKEN=${{ secrets.TX_TOKEN }}
+      #     npm run translate
+      #     npm run translate:update
+      - name: Pull translations
+        run: |
+          export TX_TOKEN=${{ secrets.TX_TOKEN }}
+          npm run translate
+          npm run translate:sync:translations
+
+      - name: Check for modified files
+        id: git-check
+        # Check if there are any files update, but ignore the case where only package-lock.json is updated.
+        run: |
+          echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ] && [ "$(git status --porcelain)" != " M package-lock.json" ]; then echo "true"; else echo "false"; fi)
+
+      - name: Set test env
+        if: ${{ steps.git-check.outputs.modified == 'true' }}
+        run: |
+          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
+          CHROME_MAJOR_VERSION=$(echo $CHROME_VERSION | cut -d '.' -f 1)
+          npm install --save-dev chromedriver@$CHROME_MAJOR_VERSION
+          export DISPLAY=:99.0
+          tests/scripts/setup_linux_env.sh
+          sleep 2
+
+      - run: npm test
+        if: ${{ steps.git-check.outputs.modified == 'true' }}
+
+      - name: Update translations changes in GitHub repository
+        if: ${{ steps.git-check.outputs.modified == 'true' }}
+        id: git-push
+        run: |
+          git config --global user.name github-actions
+          git config --global user.email github-actions@github.com
+          git add .
+          git commit -m '[skip ci] Update translations from transifex'
+          git remote add origin-translation https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/$GITHUB_REPOSITORY
+          git push --set-upstream origin-translation main
+
+      - name: Get package main version
+        if: ${{ steps.git-check.outputs.modified == 'true' }}
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@v1.1.0
+
+      - name: Generate release version
+        if: ${{ steps.git-check.outputs.modified == 'true' }}
+        run: |
+          echo "RELEASE_VERSION=${{ steps.package-version.outputs.current-version }}-prerelease.$(date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
+
+      - name: Set package version
+        if: ${{ steps.git-check.outputs.modified == 'true' }}
+        run: npm --no-git-tag-version version $RELEASE_VERSION
+
+      - name: Tag release
+        if: ${{ steps.git-check.outputs.modified == 'true' }}
+        run: |
+          git tag $RELEASE_VERSION
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/$GITHUB_REPOSITORY $RELEASE_VERSION
+
+      - uses: JS-DevTools/npm-publish@v1
+        if: ${{ steps.git-check.outputs.modified == 'true' }}
+        with:
+          token: ${{ secrets.NPM_TOKEN }}

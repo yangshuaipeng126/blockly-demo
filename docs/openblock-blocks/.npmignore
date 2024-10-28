@@ -1,0 +1,29 @@
+# Development files
+.eslintrc
+/.editorconfig
+/.eslintignore
+/.gitattributes
+/.github
+/.travis.yml
+/.tx
+/tests
+/webpack.config.js
+
+# Localization / I18N
+common.pyc
+.settings
+.project
+*.pyc
+*.komodoproject
+/nbproject/private/
+
+/accessible/*
+
+# Build created files
+/gh-pages
+
+# Chromedriver
+/LICENSE.chromedriver
+
+# Exclude already built packages from testing with npm pack
+/openblock-blocks-*.{tar,tgz}
