@@ -63,7 +63,7 @@ module.exports = [{
   },
   plugins: [
       new CopyWebpackPlugin([{
-        from: 'node_modules/google-closure-library',
+        from: 'google-closure-library',
         to: 'closure-library'
       }, {
         from: 'blocks_common',
