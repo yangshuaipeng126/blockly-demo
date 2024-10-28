@@ -1,5 +1,7 @@
 <script setup>
 import { nextTick, onMounted } from 'vue'
+
+
  // 注意不要在setup函数里创建Scratch Blocks 工作空间，否则workspace会变为响应式，进而在拖动块时报错。
  let workspace = null
  onMounted(() => {
@@ -220,7 +222,7 @@ import { nextTick, onMounted } from 'vue'
         comments: false,
         disable: false,
         collapse: false,
-        media: '/libs/openblock-blocks/media/',
+        media:  new URL(`../public/libs/openblock-blocks/media/`, import.meta.url) + '/',
         readOnly: false,
         toolbox: toolbox,
         rtl: false,
