@@ -37,9 +37,10 @@ window.BLOCKLY_BOOT = function() {
             'developers.google.com/blockly/guides/modify/web/closure');
     }
     if (window.BLOCKLY_DIR.search(/node_modules/)) {
-      dir = '.';
+      dir = '..';
     } else {
-      dir = window.BLOCKLY_DIR.match(/[^\/]+$/)[0];
+      // dir = window.BLOCKLY_DIR.match(/[^\/]+$/)[0];
+      dir = '..';
     }
   }
 goog.addDependency("../../" + dir + "/core/block.js", ['Blockly.Block'], ['Blockly.Blocks', 'Blockly.Colours', 'Blockly.Comment', 'Blockly.ScratchBlockComment', 'Blockly.Connection', 'Blockly.Events.BlockChange', 'Blockly.Events.BlockCreate', 'Blockly.Events.BlockDelete', 'Blockly.Events.BlockMove', 'Blockly.Extensions', 'Blockly.FieldLabelSerializable', 'Blockly.FieldVariableGetter', 'Blockly.Input', 'Blockly.Mutator', 'Blockly.Warning', 'Blockly.Workspace', 'Blockly.Xml', 'goog.array', 'goog.asserts', 'goog.math.Coordinate', 'goog.string']);
