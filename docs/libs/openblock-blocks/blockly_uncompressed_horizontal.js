@@ -37,8 +37,7 @@ window.BLOCKLY_BOOT = function() {
             'developers.google.com/blockly/guides/modify/web/closure');
     }
     if (window.BLOCKLY_DIR.search(/node_modules/)) {
-      // dir = '..';
-      dir = '/libs/openblock-blocks';
+      dir = '.';
     } else {
       dir = window.BLOCKLY_DIR.match(/[^\/]+$/)[0];
     }
